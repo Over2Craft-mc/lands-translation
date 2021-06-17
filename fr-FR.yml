@@ -1,40 +1,40 @@
 general:
   prefix:
-    normal: '&8[&aLands&8] '
-    help: '&8[&aLands&8] &7Usage: '
-  wYes: '&aYes'
-  wNo: '&cNo'
-  none: '&8None'
-  disabled: '&cDisabled'
-  wilderness: '&aWilderness'
-  unlimited: '&aunlimited'
+    normal: '&8[&aTerritoires&8] '
+    help: '&8[&aTerritoires&8] &7Usage: '
+  wYes: '&aOui'
+  wNo: '&cNon'
+  none: '&8Aucun'
+  disabled: '&cDésactivé'
+  wilderness: '&aNature'
+  unlimited: '&aIllimité'
   land:
     title:
-      land: '&7%level% &7of&3 %owner%&7.'
-      admin: '&7This land belongs to the server.'
-    default-area: 'Default'
+      land: '&7%niveau% &7du&3 %propriétaire%&7.'
+      admin: '&7Ce territoire appartient au serveur.'
+    default-area: 'Par défaut'
   area:
     description:
       default: '&7New claims will belong to this area.'
       sub: '&7This is a sub area, which can have special flags and members.'
-      rented: '&7This area is rented by player {player}.'
-      sold: '&7This area is sold to player {player}.'
+      rented: '&7Cette région est louée par {player}.'
+      sold: '&7Cette région appartient à {player}.'
   time:
-    days: day(s)
-    hours: hour(s)
+    days: jour(s)
+    hours: heure(s)
     minutes: minute(s)
-    seconds: second(s)
+    seconds: seconde(s)
   status:
-    online: '&aonline'
-    offline: '&coffline'
+    online: '&aEn ligne'
+    offline: '&chors ligne'
   top:
     entry:
-      balance: '&c#{pos} &a{land} &7Balance:&e ${value}'
+      balance: '&c#{pos} &a{land} &7Portefeuille:&e ${value}'
       chunks: '&c#{pos} &a{land} &7Chunks:&e {value}'
-      members: '&c#{pos} &a{land} &7Members:&e {value}'
+      members: '&c#{pos} &a{land} &7Membres:&e {value}'
     hologram:
-      title: '&7-----------&6<<<<&7- &5Top 10 Lands &8(&7Total: {total}&8) &7-&6>>>>&7-----------'
-      footer: '&7-----------&6<<<<&7- &5Top 10 Lands &8(&7Total: {total}&8) &7-&6>>>>&7-----------'
+      title: '&7-----------&6<<<<&7- &5Top 10 des territoires &8(&7Total: {total}&8) &7-&6>>>>&7-----------'
+      footer: '&7-----------&6<<<<&7- &5Top 10 des territoires &8(&7Total: {total}&8) &7-&6>>>>&7-----------'
   integration:
     dynmap:
       land:
@@ -43,43 +43,43 @@ general:
           <br/> <div class="\&quot;infowindow\&quot;">Nation: {nation}<br />Members:
           <span style="font-weight: bold;">{members}</span></div>'
         spawn: '<p><span style="font-size: 120%; color: #339966;"><span style="font-size:
-          120%;">Spawnpoint</span></span></p><p>Open to visitors: {public}</p>'
+          120%;">Spawnpoint</span></span></p><p>Accessible aux visiteurs: {public}</p>'
   sign:
     topLand:
       line-1: '&c#&l{place}'
       line-2: '&8<&2 {land} &8>'
       line-3: '&7by {owner}'
-      line-4: '&7Balance:&3 ${value}'
+      line-4: '&7Portefeuille:&3 ${value}'
     noLand:
       line-1: ' '
-      line-2: '&cNo land'
-      line-3: '&cto show.'
+      line-2: '&cAucun territoire'
+      line-3: '&cà montrer.'
       line-4: ' '
     rent:
-      line-2: '&6Rent {area}'
+      line-2: '&6Louer {area}'
       line-3: '&c${cost} &8/ &5{time}'
       line-4: '&8Max: {max}'
     sell:
       area:
-        line-2: '&aBuy'
-        line-3: '&7Area&6 {area}'
+        line-2: '&aAcheter'
+        line-3: '&7Région&6 {area}'
         line-4: '&c${cost}'
       land:
-        line-2: '&aBuy'
-        line-3: '&7Land&2 {land}'
+        line-2: '&aAcheter'
+        line-3: '&7Territoire&2 {land}'
         line-4: '&c${cost}'
     rented:
-      line-2: '&7Area&6 {area}'
+      line-2: '&7Région&6 {area}'
       line-3: '&7{player}'
-      line-4: '&5{time} &7left'
+      line-4: '&5{time} &7restant'
     sold:
       area:
-        line-2: '&7Area&6 {area}'
-        line-3: '&aSold &7to'
+        line-2: '&7Région&6 {area}'
+        line-3: '&avendue &7à'
         line-4: '&7{player}'
       land:
-        line-2: '&7Land&2 {land}'
-        line-3: '&aSold &7to'
+        line-2: '&7Territoire&2 {land}'
+        line-3: '&avendu &7à'
         line-4: '&7{player}'
   autoAction:
     claim: Chunk claim
@@ -90,85 +90,84 @@ general:
     current-location: '&e▉ '
     wilderness: '&2▉ '
     info:
-      wilderness: ' &2▉ &7= Wilderness'
-      yours: ' &a▉ &7= Yours'
-      trusted: ' &5▉ &7= Friendly'
-      others: ' &c▉ &7= Others'
+      wilderness: ' &2▉ &7= Nature'
+      yours: ' &a▉ &7= Vôtre'
+      trusted: ' &5▉ &7= Alliés'
+      others: ' &c▉ &7= Autres'
       position: ' &e▉ &7= Position'
     hover:
-      wilderness: '&7This chunk is wilderness. Click to claim it.'
-      yours: '&7This land is owned by you. Click to show information about land&3
+      wilderness: '&7Ce chunk est naturel. Cliquez pour le claim.'
+      yours: '&7Ce territoire vous appartient. Cliquez pour voir l''information à propos de&3
         {land}&7.'
-      trusted: '&7You''re trusted in this land. Click to show information about land&3
+      trusted: '&7Vous êtes trust dans ce territoire. Cliquez pour voir l''information à propos de&3
         {land}&7.'
-      others: '&7You''re not trusted in this land. Click to show information about
-        land&3 {land}&7.'
-      position: '&7This is your current position.'
+      others: '&7Vous n''êtes pas trust dans ce territoire. Cliquez pour voir l''information à propos de&3 {land}&7.'
+      position: '&7Ceci est votre position actuelle.'
   inbox:
     general:
-      created: '&8{0}: &7Land created.'
+      created: '&8{0}: &7Territoire créé.'
     member:
-      join: '&8{0}: &7Player {1} joined.'
-      leave: '&8{0}: &7Player {1} left.'
-      ban: '&8{0}: &cPlayer {1} has been banned.'
+      join: '&8{0}: &7{1} a rejoint.'
+      leave: '&8{0}: &7{1} a quitté.'
+      ban: '&8{0}: &c{1} a été banni.'
     economy:
       upkeep:
-        warning: '&8{0}: &cCouldn''t pay upkeep cost: ${1}'
-        unclaim: '&8{0}: &cCouldn''t pay the complete upkeep cost of ${1}. The last
-          {2} claimed chunk(s) were unclaimed.'
-        paid: '&8{0}: &7Paid upkeep cost: ${1}'
-        nation: '&8{0}: &7Nation {1} failed to pay the upkeep of ${2} and has been
-          deleted.'
+        warning: '&8{0}: &cVous n''avez pas pu payer les coûts de maintenance de {1} NewOver'
+        unclaim: '&8{0}: &cVous n''avez pas pu payer les coûts de maintenance de {1} NewOver. Le(s)
+          {2} dernier(s) chunks claim ont été supprimés.'
+        paid: '&8{0}: &7Vous avez payé les coûts de maintenance de {1} NewOver.'
+        nation: '&8{0}: &7La nation {1} n''a pas payé les coûts de maintenance de {2} NewOver et a été
+          supprimé.'
       bank:
-        withdraw: '&8{0}: &cPlayer {1} withdrew ${2} -> balance = ${3}'
-        deposit: '&8{0}: &7Player {1} deposited ${2} -> balance = ${3}'
+        withdraw: '&8{0}: &c{1} a retiré {2} NewOver de son compte -> Portefeuille = {3} NewOver'
+        deposit: '&8{0}: &7{1} a déposé {2} NewOver -> Portefeuille = {3} NewOver'
       taxes:
-        warning: '&8{0}: &cPlayer {1} couldn''t pay taxes.'
-        untrusted: '&8{0}: &cPlayer {1} couldn''t pay taxes. They''re now untrusted.'
-        received: '&8{0}: &7Received total of ${1} taxes from land members -> balance
-          = ${2}'
+        warning: '&8{0}: &c{1} n''a pas pu payer ses taxes.'
+        untrusted: '&8{0}: &c{1} n''a pas pu payer ses taxes. Ils sont maintenant untrust.'
+        received: '&8{0}: &7Vous avez reçu un total de {1} NewOver en taxes des membres du territoire -> Portefeuille
+          = {2} NewOver'
     war:
       declaration:
-        sent: '&8{0}: &7Declared war against {1}: &8/Wars info'
-        received: '&8{0}: &c{1} &cdeclared war against us: &8/&3Wars info'
+        sent: '&8{0}: &7A déclaré la guerre contre {1}: &8/Wars info'
+        received: '&8{0}: &c{1} &cvous a déclaré la guerre: &8/&3Wars info'
         mutual:
-          sent: '&8{0}: &7Sent war request to {1}. &7They need to accept it.'
-          received: '&8{0}: &c{1} &csent a war request. Accept: &8/&3Wars declare
+          sent: '&8{0}: &7Vous avez envoyé une requête de guerre {1}. &7Ils doivent l''accepter.'
+          received: '&8{0}: &c{1} &cvous a envoyé une requête de guerre. Accepter: &8/&3Wars declare
             {2}'
       surrender:
-        sent: '&8{0}: &cSurrendered in war. Paid ${1} tribute to the enemy.'
-        received: '&8{0}: &7Enemy {1} &7surrendered. Received ${2} tribute.'
+        sent: '&8{0}: &cS''est rendu. Ils ont payé {1} NewOver en réparations à l''ennemi.'
+        received: '&8{0}: &7{1} &7s''est rendu. Vous avez reçu {2} NewOver en réparations.'
       end:
-        won: '&8{0}: &7We''ve won the war with {1} kills and {2} deaths.'
-        draw: '&8{0}: &7The war ended in a draw with {1} kills and {2} deaths.'
-        lost: '&8{0}: &7We''ve lost the war with {2} deaths and {1} kills.'
+        won: '&8{0}: &7Vous avez gagné la guerre avec {1} kills et {2} morts.'
+        draw: '&8{0}: &7La guerre s''est terminée ex-aequo avec {1} kills and {2} morts.'
+        lost: '&8{0}: &7Vous avez perdu la guerre avec {2} morts and {1} kills.'
     nation:
       general:
-        created: '&8{0}: &7Nation created.'
+        created: '&8{0}: &7Nation créée.'
       member:
-        join: '&8{0}: &7Land {1} joined.'
-        leave: '&8{0}: &7Land {1} left.'
+        join: '&8{0}: &7{1} a rejoint.'
+        leave: '&8{0}: &7{1} a quitté.'
       economy:
         upkeep:
-          warning: '&8{0}: &cCouldn''t pay upkeep cost: ${1}'
-          paid: '&8{0}: &7Paid upkeep cost: ${1}'
+          warning: '&8{0}: &cVous n''avez pas pu payer les coûts de maintenance de {1} NewOver'
+          paid: '&8{0}: &7Vous avez payé les coûts de maintenance de {1} NewOver'
         taxes:
-          warning: '&8{0}: &cLand {1} couldn''t pay taxes.'
-          untrusted: '&8{0}: &cLand {1} couldn''t pay taxes. They were removed.'
-          received: '&8{0}: &7Received total of ${1} taxes from lands -> balance =
-            ${2}'
+          warning: '&8{0}: &cLe territoire {1} n''a pas pu payer les taxes.'
+          untrusted: '&8{0}: &c{1} n''a pas pu payer les taxes. Ils ont été exclu.'
+          received: '&8{0}: &7Vous avez reçu {1} NewOver en taxes des territoires -> Portefeuille =
+            {2} NewOver'
   wars:
     object:
-      enemy: '&cEnemy'
-      ally: '&aAlly'
+      enemy: '&cEnnemi'
+      ally: '&aAllié'
     nametag:
-      enemy: '&cENEMY &8| '
-      ally: '&aALLY &8| '
+      enemy: '&cENNEMI &8| '
+      ally: '&aALLIÉ &8| '
     state:
-      preparation: '&aPreparation'
-      fight: '&cFight'
+      preparation: '&aPréparation'
+      fight: '&cCombat'
   teleportation:
-    bossbar: '&7Wait&5 {time} &7Second(s) until Teleportation.'
+    bossbar: '&7Attendez&5 {time} &7seconde(s) avant la téléportation.'
 help:
   command:
     help: '[T]&8/&3Lands help &8[&3page&8] - &7Get help[H]&7Click to copy.[/H][SC]lands
