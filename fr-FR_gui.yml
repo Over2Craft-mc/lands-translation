@@ -1,43 +1,43 @@
 general:
-  wYes: '&aYes'
-  wNo: '&cNo'
-  none: '&cNone'
-  now: '&aNow'
-  enabled: '&aEnabled'
-  disabled: '&cDisabled'
-  unlimited: '&aunlimited'
-  previous: '&8previous'
-  offline: '&cOffline'
-  all: '&aAll'
+  wYes: '&aOui'
+  wNo: '&cNon'
+  none: '&cAucun'
+  now: '&aMaintenant'
+  enabled: '&aActivé'
+  disabled: '&cDésavtivé'
+  unlimited: '&aillimité'
+  previous: '&8précédent'
+  offline: '&cHors ligne'
+  all: '&aTout'
 
   inbox-filter:
-    members: '&eMembers'
-    economy: '&cEconomy'
-    war: '&4War'
+    members: '&eMembres'
+    economy: '&cÉconomie'
+    war: '&4Guerre'
 
   war:
-    defenders: '&aDefenders'
-    attackers: '&cAttackers'
+    defenders: '&aDéfenseurs'
+    attackers: '&cAttaquants'
     name:
-      land: '&2Land '
+      land: '&2Territoire '
       nation: '&9Nation '
 
 physical-Item:
   claim-block:
-    name: '&7Claimblock'
+    name: '&7Block de claim'
     lore:
-      - '&7You can claim a chunk'
-      - '&7by placing this block'
-      - '&7in the wilderness.'
+      - '&7Vous pouvez claim un chunk'
+      - '&7en plaçant ce bloc'
+      - '&7dans la nature.'
       - ' '
-      - '&7Owner:&3 {owner}'
+      - '&7Propriétaire:&3 {owner}'
     material: GRASS_BLOCK
 
   selection:
-    name: '&eClaim Tool'
+    name: '&eOutil de claim'
     lore:
-      - '&7Use this tool to create a'
-      - '&7selection and claim it:'
+      - '&7Utilisez cet outil pour'
+      - '&7sélectionner des chunks et les claim:'
       - '&8/&3Lands claim'
     material: GOLDEN_HOE
 
@@ -49,40 +49,40 @@ skull:
 
 gui:
   main:
-    title: '&8Main Menu'
+    title: '&8Menu principal'
     size: 27
     s:
       lands:
-        name: '&8> &2Lands'
+        name: '&8> &2Territoires'
         lore:
-          - '&7View all your lands.'
+          - '&7Voir vos territoires.'
           - ' '
-          - '&8- &7This includes your own'
-          - '  &7lands and lands, in which'
-          - '  &7you''re just a member.'
+          - '&8- &7Ceci inclut vos'
+          - '  &7territoires et ceux dans lesquels'
+          - '  &7vous êtes membres.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
         slot: 11
       all-lands:
-        name: '&8> &9All Lands'
+        name: '&8> &9Tous les territoires'
         lore:
-          - '&7View all created lands'
-          - '&7on this server.'
+          - '&7Voir tous les territoires créés'
+          - '&7sur le serveur.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0=
         slot: 13
       invites:
-        name: '&8> &6Invites'
+        name: '&8> &6Invitations'
         lore:
-          - '&7View all your'
-          - '&7received invites.'
+          - '&7Voir toutes les'
+          - '&7invitations reçues.'
         material: WRITABLE_BOOK
         slot: 15
       close:
-        name: '&cClose'
+        name: '&cFermer'
         lore:
-          - '&7Close this menu.'
+          - '&7Fermer le menu.'
           - ' '
-          - '&8- &7You can open it again'
-          - '  &7with &8/&3Lands menu main&7.'
+          - '&8- &7Vous pouvez le réouvrir'
+          - '  &7avec &8/&3Lands menu main&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 9
         enabled: true
@@ -93,48 +93,48 @@ gui:
         to: 27
     f:
       limitation:
-        name: '&8> &6Your Limitations'
+        name: '&8> &6Limitations'
         lore:
           - ' '
-          - '&7+ Create&3 {ownlands} &7lands.'
+          - '&7+ Créez &3 {ownlands} &7territoires.'
           - '  &8lands.ownlands.NUMBER'
-          - '&7+ Claim&3 {chunks} &7chunks per land.'
+          - '&7+ Claimez&3 {chunks} &7chunks par territoire.'
           - '  &8lands.chunks.NUMBER'
-          - '&7+ Support lands, in which you''re trusted,'
-          - '  &7with &3{support-chunks} &7chunks per land.'
+          - '&7+ Vous pouvez supporter &7with &3{support-chunks} '
+          - '  &7chunks par territoire dans lequel vous êtes trust.'
           - '  &8lands.chunks.support.NUMBER'
           - ' '
-          - '&7+ Join&3 {lands} &7lands.'
+          - '&7+ Vous pouvez rejoindre&3 {lands} &7territoires.'
           - '  &8lands.lands.NUMBER'
-          - '&7+ Have&3 {members} &7members per land.'
+          - '&7+ Vous pouvez avoir&3 {members} &7membres par territoire.'
           - '  &8lands.members.NUMBER'
         material: PLAYER_HEAD
         slot: 17
   player_lands:
-    title: '&8Your Lands'
+    title: '&8Vos territoires'
     size: 27
     s: { }
     f:
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Page précédente'
         lore:
-          - '&7Go to previous page:&9 {previous}'
+          - '&7Aller vers la page précédente:&9 {previous}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 21
       page_next:
-        name: '&aNext Page'
+        name: '&aPage suivante'
         lore:
-          - '&7Go to next page:&9 {next}'
+          - '&7Aller vers la page suivante:&9 {next}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 25
       back:
-        name: '&cBack'
+        name: '&cRevenir'
         lore:
-          - '&7Go back to'
+          - '&7Revenir vers'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 19
@@ -142,38 +142,38 @@ gui:
       object:
         name: '&2{land}'
         lore:
-          - '&7You''re trusted in this land.'
+          - '&7Vous êtes trust dans ce territoire.'
           - ' '
           - '&7Chunks:&3 {chunks} &7/&c {max-chunks}'
           - ' '
-          - '&9RIGHT CLICK'
-          - '&7View some general'
-          - '&7information about this'
-          - '&7land.'
+          - '&9CLIC DROIT'
+          - '&7Voir des informations'
+          - '&7générales à propos du'
+          - '&7territoire.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFiNDNiOGMzZDM0ZjEyNWU1YTNmOGI5MmNkNDNkZmQxNGM2MjQwMmMzMzI5ODQ2MWQ0ZDRkN2NlMmQzYWVhIn19fQ==
         from: 10
         to: 18
       own-land:
         name: '&2{land}'
         lore:
-          - '&7You own this land.'
+          - '&7Vous possédez ce territoire.'
           - ' '
           - '&7Chunks:&3 {chunks} &7/&c {max-chunks}'
           - ' '
-          - '&9RIGHT CLICK'
-          - '&7View some general'
-          - '&7information about this'
-          - '&7land.'
+          - '&9CLIC DROIT'
+          - '&7Voir des informations'
+          - '&7générales à propos du'
+          - '&7territoire.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
         from: 10
         to: 18
       no-land:
-        name: '&cNo Lands yet'
+        name: '&cVous ne possédez aucun territoire.'
         lore:
-          - '&8- &7To create a land execute:'
+          - '&8- &7Pour créer un territoire:'
           - '  &8/&3Lands create &8<&3name&8>'
           - ' '
-          - '&8- &7Let other lands trust you:'
+          - '&8- &7Se faire trust par un territoire:'
           - '  &8/&3Lands trust {player}'
         material: OAK_SIGN
         from: 10
@@ -194,14 +194,15 @@ gui:
       information:
         name: '&6Information'
         lore:
-          - '&7In this line you can view'
-          - '&7some detailed information'
-          - '&7about your land. This helps'
-          - '&7to keep track of all events'
-          - '&7in your land.'
+          - '&7Ici vous pouvez voir'
+          - '&7de l''information détaillée'
+          - '&7à propos de votre territoire.'
+          - '&7Ceci aide à suivre le cours'
+          - '&7des évènements dans votre'
+          - '&7territoire.'
           - ' '
-          - '&7Click this item to teleport to'
-          - '&7the spawn.'
+          - '&7Cliquez sur cet item pour vous téléporter'
+          - '&7au spawn.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU3NDcwMTBkODRhYTU2NDgzYjc1ZjYyNDNkOTRmMzRjNTM0NjAzNTg0YjJjYzY4YTQ1YmYzNjU4NDAxMDVmZCJ9fX0=
         slot: 11
       trusted:
