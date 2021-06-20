@@ -164,11 +164,11 @@ general:
     bossbar: '&7Attendez&5 {time} &7seconde(s) avant la téléportation.'
 help:
   command:
-    help: '[T]&8/&3Aide territoires &8[&3page&8] - &7Obtenir de l''aide[H]&7Cliquez pour copier.[/H][SC]lands help[/SC][/T]'
-    edit: '[T]&8/&3Modification territoires &8<&3land&8> &8- &7Entrer le mode d''édition de territoire[H]&7Le mode d''édition de territoire est utilisé pour les commandes telles que /Lands claim. &7Cliquez pour copier.[/H][SC]lands edit[/SC][/T]'
-    claim: '[T]&8/&3Claim de territoires &8[&3land | auto&8] - &7Claim chunk[H]&7Claim le chunk dans lequel vous vous trouvez. Vous pouvez aussi spécifier un territoire vers lequel ce claim devrait aller. &7Cliquez pour copier.[/H][SC]lands claim[/SC][/T]'
-    create: '[T]&8/&3Lands create &8<&3name&8> - &7Create land[H]&7Cliquez pour copier.[/H][SC]lands create[/SC][/T]'
-    leave: '[T]&8/&3Lands leave &8[&3land&8] &8- &7Leave a land or area.[H]&7If you don''t specify a land, you''ll leave the area at your current position. &7Click to copy.[/H][SC]lands leave[/SC][/T]'
+    help: '[T]&8/&3Lands help &8[&3page&8] - &7Obtenir de l''aide[H]&7Cliquez pour copier.[/H][SC]lands help[/SC][/T]'
+    edit: '[T]&8/&3Lands edit &8<&3land&8> &8- &7Entrer le mode d''édition de territoire[H]&7Le mode d''édition de territoire est utilisé pour les commandes telles que /Lands claim. &7Cliquez pour copier.[/H][SC]lands edit[/SC][/T]'
+    claim: '[T]&8/&3Lands claim &8[&3land | auto&8] - &7Claim chunk[H]&7Claim le chunk dans lequel vous vous trouvez. Vous pouvez aussi spécifier un territoire vers lequel ce claim devrait aller. &7Cliquez pour copier.[/H][SC]lands claim[/SC][/T]'
+    create: '[T]&8/&3Lands create &8<&3name&8> - &7Créer un nouveau territoire.[H]&7Cliquez pour copier.[/H][SC]lands create[/SC][/T]'
+    leave: '[T]&8/&3Lands leave &8[&3land&8] &8- &7Quitter un territoire ou une région.[H]&7If you don''t specify a land, you''ll leave the area at your current position. &7Click to copy.[/H][SC]lands leave[/SC][/T]'
     unclaim: '[T]&8/&3Lands unclaim &8- &7Unclaim chunk[H]&7This also supports /Lands selection. &7Cliquez pour copier.[/H][SC]lands unclaim[/SC][/T]'
     delete: '[T]&8/&3Lands delete &8<&3land&8> &8- &7Delete land[H]&7Cliquez pour copier.[/H][SC]lands delete[/SC][/T]'
     trust: '[T]&8/&3Lands trust &8<&3player&8> [&3area&8] - &7Trust player[H]&7Use * as the area name to trust the player to the whole land. &7Cliquez pour copier.[/H][SC]lands trust[/SC][/T]'
