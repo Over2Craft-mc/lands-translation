@@ -228,113 +228,113 @@ gui:
       management:
         name: '&6Gérer le territoire'
         lore:
-          - '&7In this line you can manage your land.'
-          - '&7You can trust players, assign roles,'
-          - '&7edit land flags or set taxes.'
+          - '&7Ici vous pouvez gérer votre territoire.'
+          - '&7Vous pouvez trust des joueurs, assigner des rôles,'
+          - '&7éditer les flags du territoire ou fixer des taxes.'
           - ' '
-          - '&7Click this item to teleport to'
-          - '&7the spawn.'
+          - '&7Cliquez l''item pour vous téléporter'
+          - '&7au spawn.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkNDliYWU5NWM3OTBjM2IxZmY1YjJmMDEwNTJhNzE0ZDYxODU0ODFkNWIxYzg1OTMwYjNmOTlkMjMyMTY3NCJ9fX0=
         slot: 29
       various:
-        name: '&8> &6Cosmetical Settings'
+        name: '&8> &6Réglages cosmétiques'
         lore:
-          - '&7Edit the land name'
-          - '&7and enter message.'
+          - '&7Modifier le nom du territoire'
+          - '&7et le message d''entrée.'
         material: BEACON
         slot: 35
     f:
       land-settings:
-        name: '&8> &6Land Flags'
+        name: '&8> &6Flags de territoire'
         lore:
-          - '&7Edit natural flags'
-          - '&7of the area&6 {area}&7.'
+          - '&7Modifier les flags'
+          - '&7de la région&6 {area}&7.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
         slot: 31
       roles:
-        name: '&8> &6Roles'
+        name: '&8> &6Rôles'
         lore:
-          - '&7View roles of the'
-          - '&7area&6 {area}&7.'
+          - '&7Voir les rôles de'
+          - '&7la région&6 {area}&7.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0=
         slot: 32
       taxes:
         name: '&8> &6Taxes'
         lore:
-          - '&7View taxes of the'
-          - '&7area&6 {area}&7.'
+          - '&7Voir les taxes de'
+          - '&7la région&6 {area}&7.'
         material: GOLD_INGOT
         slot: 33
       areas:
-        name: '&8> &6Areas'
+        name: '&8> &6Régions'
         lore:
-          - '&7View all areas of this land.'
-          - '&7You also can create new'
-          - '&7areas in this menu.'
+          - '&7Voir toutes les régions du territoire.'
+          - '&7Vous pouvez aussi créer de nouvelles'
+          - '&7régions dans ce menu.'
           - ' '
-          - '&7Areas:&3 {areas} &7/&c {max-areas}'
+          - '&7Régions:&3 {areas} &7/&c {max-areas}'
           - '&7Claims:&3 {chunks} &7/&c {max-chunks}'
         material: OAK_FENCE
         slot: 13
       inbox:
         name: '&8> &6Inbox &8(&7{amount}&8)'
         lore:
-          - '&7Click to open advanced view.'
+          - '&7Cliquez pour les options avancées.'
           - ' '
-          - '&7Received messages:'
+          - '&7RMessages reçus:'
           - '{inbox}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJmM2ZjZGNjZmZkOTYzZTQzMzQ4MTgxMDhlMWU5YWUzYTgwNTY2ZDBkM2QyZDRhYjMwNTFhMmNkODExMzQ4YyJ9fX0=
         slot: 16
       stats:
-        name: '&8> &6Statistics'
+        name: '&8> &6Statistiques'
         lore:
-          - '&7Location: {0}, x={1}, z={2}'
+          - '&7Position: {0}, x={1}, z={2}'
           - ' '
           - '&7Nation: {3}'
           - '&7Claims: {4} / {5}'
-          - '&7Members: {6} / {7}'
+          - '&7Membres: {6} / {7}'
           - ' '
-          - '&7Level: {8}'
-          - '&7Click for more information.'
+          - '&7Niveau: {8}'
+          - '&7Cliquez pour plus d''information.'
           - ' '
-          - '&7Economy'
-          - '&8- &7Land'
-          - '  &7Balance: ${9}'
-          - '  &7Next claim cost: ${10}'
-          - '  &7Upkeep of&c ${11} &7in:'
+          - '&7Économie'
+          - '&8- &7Territoire'
+          - '  &7Portefeuille: ${9}'
+          - '  &7Coût pour un nouveau claim: ${10}'
+          - '  &7Maintenance de&c ${11} &7dans:'
           - '  &7{12}'
           - ' '
-          - '&8- &4You'
-          - '  &7Balance: ${13}'
-          - '  &7Taxes of&c ${14} &7in:'
+          - '&8- &4Vous'
+          - '  &7Portefeuille: ${13}'
+          - '  &7Taxes de&c ${14} &7dans:'
           - '  &7{15}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNmYWZmYThjNmM3ZjYyNjIxNjgyZmU1NjcxMWRjM2I4OTQ0NjVmZGY3YTYyZjQzYjMxYTBkMzQwM2YzNGU3In19fQ==
         slot: 17
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner à'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 37
     a:
       failure_teleport_permission:
-        name: '&4Denied: &cPermission'
+        name: '&4Refusé: &cPermission'
         lore:
-          - '&cYou''re not allowed to'
-          - '&cteleport to any land spawn.'
+          - '&cVous n''êtes pas autorisé à'
+          - '&cteleporter à un spawn de territoire.'
           - ' '
           - '&8Permission:'
           - '&8{permission}'
       failure_no-spawn:
-        name: '&4Failure: &cNo Spawn set'
+        name: '&4Échec: &cAucun spawn'
         lore:
-          - '&7This land has no spawn'
-          - '&7set yet. They need to'
-          - '&7set a land spawn first:'
+          - '&7Ce territoire n''a pas de point'
+          - '&7de spawn. Ils doivent'
+          - '&7en déterminer un avant:'
           - ' '
-          - '&7Execute &8/&3Lands setspawn'
-          - '&7to set the lands spawn.'
+          - '&7Faites &8/&3Lands setspawn'
+          - '&7pour déterminer le point de spawn.'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -349,46 +349,46 @@ gui:
         from: 30
         to: 30
   land_areas:
-    title: '&8Areas'
+    title: '&8Régions'
     size: 36
     s: { }
     f:
       create:
-        name: '&aCreate Area'
+        name: '&aCréer une région'
         lore:
-          - '&7Create a new area for'
-          - '&7this land.'
+          - '&7Créer une nouvelle région'
+          - '&7pour ce territoire.'
           - ' '
-          - '&7Available:&3 {areas} &8/&c {max}'
+          - '&7Disponible:&3 {areas} &8/&c {max}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA1NmJjMTI0NGZjZmY5OTM0NGYxMmFiYTQyYWMyM2ZlZTZlZjZlMzM1MWQyN2QyNzNjMTU3MjUzMWYifX19
         slot: 32
       delete:
-        name: '&cDelete Area'
+        name: '&cSupprimer une région'
         lore:
-          - '&7Delete a area of'
-          - '&7this land.'
+          - '&7Supprimer une région'
+          - '&7de ce territoire.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljZGI5YWYzOGNmNDFkYWE1M2JjOGNkYTc2NjVjNTA5NjMyZDE0ZTY3OGYwZjE5ZjI2M2Y0NmU1NDFkOGEzMCJ9fX0=
         slot: 33
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Page précédente'
         lore:
-          - '&7Go to previous page:&9 {previous}'
+          - '&7Aller à la page précédente:&9 {previous}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 30
       page_next:
-        name: '&aNext Page'
+        name: '&aPage suivante'
         lore:
-          - '&7Go to next page:&9 {next}'
+          - '&7Aller à la page suivante:&9 {next}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 35
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner vers'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 28
@@ -396,8 +396,8 @@ gui:
       object:
         name: '&6{area}'
         lore:
-          - '&7Open the menu for'
-          - '&7this area.'
+          - '&7Ouvrir le menu de'
+          - '&7cette région.'
           - ' '
           - '&7Description:'
           - '{description}'
@@ -405,40 +405,40 @@ gui:
         from: 10
         to: 27
       area-setup:
-        name: '&cSetup:&6 {area}'
+        name: '&cMise en route:&6 {area}'
         lore:
-          - '&7You haven''t assigned'
-          - '&7any land to this area yet.'
+          - '&7Vous n''avez assigné aucun'
+          - '&7territoire à cette région.'
           - ' '
-          - '&7Use &8/&3Lands selection'
-          - '&7to make a selection and then'
+          - '&7Utilisez &8/&3Lands selection'
+          - '&7pour faire la sélection et'
           - '&8/&3Lands selection assign {area}'
-          - '&7to assign land to this area.'
+          - '&7pour assigner un territoire à la région.'
         material: ACACIA_FENCE
         from: 10
         to: 27
     a:
       failure_rental:
-        name: '&4Failure: &cRental'
+        name: '&4Échec: &cLocation'
         lore:
-          - '&7You can''t edit this area'
-          - '&7while it is rented/sold.'
-          - '&7Tenant:&3 {player}'
+          - '&7Vous ne pouvez pas modifier cette'
+          - '&7zone puisqu''elle est louée/vendue.'
+          - '&7Locataire:&3 {player}'
       failure_untrusted:
-        name: '&4Denied: &cNot trusted'
+        name: '&4Refusé: &cPas trust'
         lore:
-          - '&cYou''re not allowed to'
-          - '&copen the menu for this area.'
+          - '&cVous n''êtes pas autorisé à'
+          - '&couvrir le menu de cette région.'
           - ' '
-          - '&8- &7You need to be trusted'
-          - '  &7in this area.'
-          - '&8- &7Contact the land owner'
-          - '  &7for help.'
+          - '&8- &7Vous devez être trust'
+          - '  &7dans cette région.'
+          - '&8- &7Contactez le propriétaire du'
+          - '  &7territoire pour de l''aide.'
       failure_max-areas:
-        name: '&4Failure: &cMax Areas'
+        name: '&4Échec: &cMaximum de régions atteint'
         lore:
-          - '&7This land reached their maximum'
-          - '&7amount of&3 {max} &7Areas.'
+          - '&7Ce territoire a atteint le nombre'
+          - '&7maximum de&3 {max} &7régions.'
           - ' '
           - '&8Permission: lands.areas.NUMBER'
     p:
@@ -456,51 +456,51 @@ gui:
     s: { }
     f:
       toggle:
-        name: '&7World:&3 {world}'
+        name: '&7Monde:&3 {world}'
         lore:
-          - '&7Click here to toggle'
-          - '&7the world.'
+          - '&7Cliquez ici pour afficher'
+          - '&7le monde ou le cacher.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0=
         slot: 32
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Page précédente'
         lore:
-          - '&7Go to previous page:&9 {previous}'
+          - '&7Aller à la page précédente:&9 {previous}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 30
       page_next:
-        name: '&aNext Page'
+        name: '&aPage suivante'
         lore:
-          - '&7Go to next page:&9 {next}'
+          - '&7Aller à la page suivante:&9 {next}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 34
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner à'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 28
     l:
       object:
-        name: '&6World: {world} X: {x} Z: {z}'
+        name: '&6Monde: {world} X: {x} Z: {z}'
         lore:
-          - '&7Claimed: {time} &7ago'
+          - '&7Claim: {time} &7ago'
           - ' '
-          - '&7Click to teleport.'
+          - '&7Cliquez pour vous téléporter.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
         from: 10
         to: 27
     a:
       failure_cooldown:
-        name: '&4Failure: &cCooldown'
+        name: '&4Échec: &cCooldown'
         lore:
-          - '&7You need to wait another {time}'
-          - '&7before you can do this again.'
+          - '&7Vous devez attendre {time}'
+          - '&7pour refaire cette action.'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -516,34 +516,34 @@ gui:
     size: 36
     f:
       filter:
-        name: '&8> &6Filter by Type'
+        name: '&8> &6Filtrer par type'
         lore:
-          - '&7Click here to cycle through'
-          - '&7message types.'
+          - '&7Cliquez ici pour changer le'
+          - '&7filtre par type de message.'
           - ' '
-          - '&7Current:&3 {type}'
+          - '&7Filtré par:&3 {type}'
         material: HOPPER
         slot: 32
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Page précédente'
         lore:
-          - '&7Go to previous page:&9 {previous}'
+          - '&7Aller à la page précédente:&9 {previous}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 30
       page_next:
-        name: '&aNext Page'
+        name: '&aPage suivante'
         lore:
-          - '&7Go to next page:&9 {next}'
+          - '&7Aller à la page suivante:&9 {next}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 35
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner à'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 28
@@ -553,17 +553,17 @@ gui:
         lore:
           - '{message}'
           - ' '
-          - '&7Click to remove.'
+          - '&7Cliquez pour supprimer.'
         material: PAPER
         from: 10
         to: 27
     a:
       failure_owner:
-        name: '&4Failure: &cNo Access'
+        name: '&4Échec: &cPas d''accès'
         lore:
-          - '&7You''re not allowed to do this.'
-          - '&7Only the owner is permitted to'
-          - '&7remove messages.'
+          - '&7Vous n''avez pas la permission'
+          - '&7de supprimer des messages. Seul'
+          - '&7le propriétaire y est autorisé.'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -574,13 +574,13 @@ gui:
         from: 29
         to: 36
   area:
-    title: '&8Area {area}'
+    title: '&8Région {area}'
     size: 45
     f:
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner vers'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 37
@@ -588,88 +588,89 @@ gui:
       information:
         name: '&6Information'
         lore:
-          - '&7Here you can view'
-          - '&7some detailed information'
-          - '&7about this area. This helps'
-          - '&7to keep track of all things'
-          - '&7in this area.'
+          - '&7Ici vous pouvez voir'
+          - '&7de l''information détaillée'
+          - '&7à propos de la région. Ceci aide'
+          - '&7à garder une trace des situations'
+          - '&7dans cette région.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU3NDcwMTBkODRhYTU2NDgzYjc1ZjYyNDNkOTRmMzRjNTM0NjAzNTg0YjJjYzY4YTQ1YmYzNjU4NDAxMDVmZCJ9fX0=
         slot: 11
       trusted:
-        name: '&8> &6Trusted Players'
+        name: '&8> &6Joueurs Trust'
         lore:
-          - '&7Get a list of all players, which'
-          - '&7are trusted in this specific area.'
+          - '&7Obtenez une liste des joueurs qui'
+          - '&7sont trust dans cette région.'
           - ' '
-          - '&bSHIFT + LEFT CLICK'
-          - '&7Manage banned players'
-          - '&7of this area.'
+          - '&bSHIFT + CLIC GAUCHE'
+          - '&7Gérer les joueurs bannis'
+          - '&7de cette région.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0=
         slot: 13
       invites:
-        name: '&8> &6Invites'
+        name: '&8> &6Invitations'
         lore:
-          - '&7Revoke dispatched invites'
-          - '&7or just view some information'
-          - '&7about them.'
+          - '&7Révoquer des invitations'
+          - '&7ou consultez de l''information'
+          - '&7à propos de celles-ci.'
           - ' '
-          - '&8- &7These invites'
-          - '  &7can trust players'
-          - '  &7in this area.'
+          - '&8- &7Ces invitations'
+          - '  &7peuvent trust des joueurs'
+          - '  &7dans cette région.'
         material: WRITABLE_BOOK
         slot: 14
       management:
-        name: '&6Management'
+        name: '&6Gestionnaire'
         lore:
-          - '&7Here you can manage this area. You can'
-          - '&7trust players, assign roles, edit land flags'
-          - '&7or set taxes for this area.'
+          - '&7Ici vous pouvez gérer cette région. Vous pouvez'
+          - '&7trust des joueurs, assigner des rôles, éditer des'
+          - '&7flags de territoire ou créer des taxes pour la région.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkNDliYWU5NWM3OTBjM2IxZmY1YjJmMDEwNTJhNzE0ZDYxODU0ODFkNWIxYzg1OTMwYjNmOTlkMjMyMTY3NCJ9fX0=
         slot: 29
       land-settings:
-        name: '&8> &6Land Flags'
+        name: '&8> &6Flags de territoire'
         lore:
-          - '&7Here you can edit natural'
-          - '&7flags like mob spawning.'
+          - '&7Ici vous pouvez modifier des'
+          - '&7flags comme le spawn des créatures.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
         slot: 31
       roles:
-        name: '&8> &6Roles'
+        name: '&8> &6Rôles'
         lore:
-          - '&7View roles in this area.'
+          - '&7Voir les rôles dans cette région.'
           - ' '
-          - '&8- &7Global roles are automatically'
-          - '  &7added to this area.'
+          - '&8- &7Les rôles généraux sont automatiquement'
+          - '  &7ajoutés à cette région.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0=
         slot: 32
       taxes:
         name: '&8> &6Taxes'
         lore:
-          - '&7View taxes of this area.'
+          - '&7Voir les taxes de cette région.'
           - ' '
-          - '&7Taxes are collected'
-          - '&7per area.'
+          - '&7Les taxes sont collectées'
+          - '&7par région.'
         material: GOLD_INGOT
         slot: 33
       various:
-        name: '&8> &6Various Settings'
+        name: '&8> &6Paramètres variés'
         lore:
-          - '&7Edit the area name'
-          - '&7and description.'
+          - '&7Modifier le nom de la région'
+          - '&7et sa description.'
         material: BEACON
         slot: 35
     a:
       failure_rental:
-        name: '&4Failure: &cRental'
+        name: '&4Échec: &cLocation'
         lore:
-          - '&7You can''t set taxes for this'
-          - '&7area while it is rented/sold.'
-          - '&7Tenant:&3 {player}'
+          - '&7Vous ne pouvez fixer des taxes'
+          - '&7pour cette région alors qu''elle'
+          - '&7est présentement louée/vendue.'
+          - '&7Locataire:&3 {player}'
       failure_access:
-        name: '&4Failure: &cNot allowed'
+        name: '&4Échec: &cPas autorisé'
         lore:
-          - '&7You''re not allowed to do this'
-          - '&7in this area.'
+          - '&7Vous n''êtes pas autorisé à faire'
+          - '&7ceci dans cette région.'
           - ' '
           - '&8Flag: {flag}'
           - '&8Bypass: {bypass}'
@@ -687,16 +688,16 @@ gui:
         from: 30
         to: 30
   area_players:
-    title: '&8{area} &7- &8Trusted Players'
+    title: '&8{area} &7- &8Joueurs trust'
     size: 36
     l:
       object_all:
         name: '&e{player}'
         lore:
-          - '&7Middle click:'
-          - '&7Get more information.'
+          - '&7Clic molette:'
+          - '&7Plus d''information.'
           - ' '
-          - '&7Trusted in these areas:'
+          - '&7Trust dans ces régions:'
           - '{areas}'
         material: PLAYER_HEAD
         from: 10
@@ -704,97 +705,97 @@ gui:
       object:
         name: '&e{player}'
         lore:
-          - '&7Role: {role}'
+          - '&7Rôle: {role}'
           - ' '
-          - '&bLEFT CLICK'
-          - '&7▲ Promote'
+          - '&bCLIC GAUCHE'
+          - '&7▲ Promouvoir'
           - ' '
-          - '&9RIGHT CLICK'
-          - '&7▼ Demote'
+          - '&9CLIC DROIT'
+          - '&7▼ Révoquer'
           - ' '
-          - '&7Middle click:'
-          - '&7More information'
+          - '&7Clic molette:'
+          - '&7Plus d''information'
         material: PLAYER_HEAD
         from: 10
         to: 27
     a:
       failure_priority:
-        name: '&4Failure: &cRole Priority'
+        name: '&4Échec: &cPriorité de rôle'
         lore:
-          - '&7You''re not allowed to'
-          - '&7edit settings of this role.'
-          - '&7It has a higher priority'
-          - '&7than yours or you''re a'
-          - '&7member of this role.'
+          - '&7Vous n''êtes pas autorisé à'
+          - '&7modifier les paramètres de.'
+          - '&7ce rôle. Il a une priorité'
+          - '&7plus élevée que celle de'
+          - '&7votre rôle actuel.'
           - ' '
           - '&8Bypass: {bypass}'
       noaccess_setrole:
-        name: '&4Failure: &cNot permitted'
+        name: '&4Échec: &cPas de permission'
         lore:
-          - '&7You''re not allowed to do this.'
-          - '&7The land owner can give you'
-          - '&7permission to do so.'
+          - '&7Vous n''êtes pas autorisé à faire ceci.'
+          - '&7Le propriétaire du territoire peut vous'
+          - '&7donner la permission de le faire.'
       failure_max-players:
-        name: '&4Failure: &cMax trusted Players'
+        name: '&4Échec: &cMaximum de joueurs trust'
         lore:
-          - '&7This land reached their maximum'
-          - '&7amount of&3 {max} &7members.'
+          - '&7Ce territoire a atteint son nombre'
+          - '&7maximum de &3 {max} &7membres.'
           - ' '
           - '&8Permission: lands.members.NUMBER'
     f:
       toggle:
-        name: '&8> &6View only Area'
+        name: '&8> &6Voir uniquement la région'
         lore:
-          - '&7Display only players'
-          - '&7which are trusted in'
-          - '&7this area &8(&6{area}&8)&7?'
+          - '&7Afficher uniquement les'
+          - '&7joueurs trust dans la'
+          - '&7région &8(&6{area}&8)&7?'
           - ' '
-          - '&7If disabled: Displays'
-          - '&7players of the whole land.'
-          - '&7Also it allows you to'
-          - '&7trust / untrust players'
-          - '&7in the whole land.'
+          - '&7Si désactivé: Affiche'
+          - '&7les joueurs du territoire.'
+          - '&7Il vous permet également de'
+          - '&7trust / untrust des joueurs'
+          - '&7dans le territoire.'
           - ' '
-          - '&7Current: {current}'
+          - '&7{current}'
         material: HOPPER
         slot: 32
       trust:
-        name: '&8> &aTrust Player'
+        name: '&8> &aTrust un joueur'
         lore:
-          - '&7Click here to trust'
-          - '&7a player in this area.'
+          - '&7Cliquez ici pour trust'
+          - '&7un joueur dans la région.'
           - ' '
-          - '&7Available:&3 {players} &8/&c {max}'
+          - '&7Disponible:&3 {players} &8/&c {max}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkyZTMxZmZiNTljOTBhYjA4ZmM5ZGMxZmUyNjgwMjAzNWEzYTQ3YzQyZmVlNjM0MjNiY2RiNDI2MmVjYjliNiJ9fX0=
         slot: 31
       untrust:
-        name: '&8> &cUntrust Player'
+        name: '&8> &cUntrust un joueur'
         lore:
-          - '&7Click here to untrust'
-          - '&7a player from this area.'
+          - '&7Cliquez ici pour untrust'
+          - '&7un joueur dans la région.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljZGI5YWYzOGNmNDFkYWE1M2JjOGNkYTc2NjVjNTA5NjMyZDE0ZTY3OGYwZjE5ZjI2M2Y0NmU1NDFkOGEzMCJ9fX0=
         slot: 33
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner à'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 28
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Page précédente'
         lore:
-          - '&7Go to previous page:&9 {previous}'
+          - '&7Retourner à la page précédente:&9 {previous}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 29
       page_next:
-        name: '&aNext Page'
+        name: '&aPage suivante'
         lore:
-          - '&7Go to next page:&9 {next}'
+          - '&7Aller à la page suivante:&9 {next}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 35
     p:
@@ -807,64 +808,64 @@ gui:
         from: 29
         to: 36
   area_banned:
-    title: '&8{area} &7- &8Banned Players'
+    title: '&8{area} &7- &8Joueurs bannis'
     size: 36
     l:
       object_all:
         name: '&e{player}'
         lore:
-          - '&7Banned in these areas:'
+          - '&7Bannis dans ces régions:'
           - '{areas}'
           - ' '
-          - '&7Middle click:'
-          - '&7Get more information.'
+          - '&7Clic molette:'
+          - '&7Plus d''information.'
         material: PLAYER_HEAD
         from: 10
         to: 27
       object:
         name: '&e{player}'
         lore:
-          - '&7The player is banned'
-          - '&7in this area.'
+          - '&7Le joueur est banni'
+          - '&7de cette région.'
           - ' '
-          - '&7Middle click:'
-          - '&7Get more information.'
+          - '&7Clic molette:'
+          - '&7Plus d''information.'
         material: PLAYER_HEAD
         from: 10
         to: 27
     f:
       toggle:
-        name: '&8> &6View only Area'
+        name: '&8> &6Voir uniquement la région'
         lore:
-          - '&7Display only players'
-          - '&7which are banned in'
-          - '&7this area &8(&6{area}&8)&7?'
+          - '&7Afficher uniquement les'
+          - '&7joueurs bannis dans la'
+          - '&7région &8(&6{area}&8)&7?'
           - ' '
-          - '&7If disabled: Displays'
-          - '&7bans of the whole land.'
-          - '&7Also it allows you to'
-          - '&7ban / unban players'
-          - '&7in the whole land.'
+          - '&7Si désactivé: Affiche'
+          - '&7les joueurs du territoire.'
+          - '&7Il vous permet également de'
+          - '&7bannir / débannir des joueurs'
+          - '&7dans le territoire.'
           - ' '
-          - '&7Current: {current}'
+          - '&7{current}'
         material: HOPPER
         slot: 32
       ban:
-        name: '&8> &cBan Player'
+        name: '&8> &cBannir un joueur'
         lore:
-          - '&7Click here to ban'
-          - '&7a player in this area.'
+          - '&7Cliquez ici pour bannir'
+          - '&7un joueur de cette région.'
           - ' '
-          - '&7Banned players won''t'
-          - '&7be able to enter or'
-          - '&7teleport into it.'
+          - '&7Les joueurs bannis ne'
+          - '&7pourront pas entrer ou se'
+          - '&7téléporter dans la région.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljZGI5YWYzOGNmNDFkYWE1M2JjOGNkYTc2NjVjNTA5NjMyZDE0ZTY3OGYwZjE5ZjI2M2Y0NmU1NDFkOGEzMCJ9fX0=
         slot: 31
       unban:
-        name: '&8> &aUnban Player'
+        name: '&8> &aDébannir un joueur'
         lore:
-          - '&7Click here to unban'
-          - '&7a player from this area.'
+          - '&7Cliquez ici pour débannir'
+          - '&7un joueur de cette région.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkyZTMxZmZiNTljOTBhYjA4ZmM5ZGMxZmUyNjgwMjAzNWEzYTQ3YzQyZmVlNjM0MjNiY2RiNDI2MmVjYjliNiJ9fX0=
         slot: 33
       back:
