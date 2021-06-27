@@ -4,7 +4,7 @@ general:
   none: '&cAucun'
   now: '&aMaintenant'
   enabled: '&aActivé'
-  disabled: '&cDésavtivé'
+  disabled: '&cDésactivé'
   unlimited: '&aillimité'
   previous: '&8précédent'
   offline: '&cHors ligne'
@@ -1772,8 +1772,8 @@ gui:
       general:
         name: '&6{flag}'
         lore:
-          - '&7Status: {enabled}'
-          - '&7Unlocked: {unlocked}'
+          - '&7Statut: {enabled}'
+          - '&7Débloqué: {unlocked}'
           - ' '
           - '&7Description:'
           - '{desc}'
@@ -1781,32 +1781,32 @@ gui:
         from: 10
         to: 27
       entity_griefing:
-        name: '&6Entity Griefing'
+        name: '&6Grief d''entités'
         lore:
-          - '&7Status: {enabled}'
-          - '&7Unlocked: {unlocked}'
+          - '&7Statut: {enabled}'
+          - '&7Débloqué: {unlocked}'
           - ' '
-          - '&7Allow entities to'
-          - '&7grief blocks?'
+          - '&7Autoriser les entités à'
+          - '&7grief le terrain?'
           - ' '
-          - '&8If enabled: Entities will'
-          - '&8be able to destroy your'
-          - '&8buildings.'
+          - '&8Si activé: Les entités vont'
+          - '&8pouvoir détruire vos'
+          - '&8bâtiments.'
         material: CREEPER_HEAD
         from: 10
         to: 27
       tnt_griefing:
-        name: '&6TNT Block Damage'
+        name: '&6Dommages TNT'
         lore:
-          - '&7Status: {enabled}'
-          - '&7Unlocked: {unlocked}'
+          - '&7Statut: {enabled}'
+          - '&7Débloqué: {unlocked}'
           - ' '
-          - '&7Allow TNT blocks to'
-          - '&7to damage blocks?'
+          - '&7Autoriser la TNT à'
+          - '&7endommager les blocs?'
           - ' '
-          - '&8If enabled: Players will be'
-          - '&8able to shoot TNT into your'
-          - '&8land to grief it.'
+          - '&8Si activé: Les joueurs pourront'
+          - '&8lancer de la TNT dans votre'
+          - '&8territoire pour grief.'
         material: TNT
         from: 10
         to: 27
