@@ -310,33 +310,30 @@ message:
       land: '&cVous ne pouvez pas modifier le rôle&4 {role} &cdans&4 {land}&c. &7Son rôle&6 {role} &7a une priorité plus élevée que le vôtre.'
       area: '&cVous ne pouvez pas modifier le rôle&4 {role} &cdans (&cArea:&4 {area} &cLand:&4 {land}&c). &7Son rôle&6 {role} &7a une priorité plus élevée que le vôtre.'
     delete:
-      role: '&cYou can''t delete the role&4 {role} &cof your land. &7This role is required.'
-      entry: '&cYou can''t delete the entry role of your land. &7It is required for new players.'
-      visitor: '&cYou can''t delete the visitor role of your land. &7It is required for entering visitors.'
+      role: '&cVous ne pouvez pas supprimer le rôle&4 {role} &cde votre territoire. &7Ce rôle est nécéssaire.'
+      entry: '&cVous ne pouvez pas supprimer le rôle d''entrée. &7Il est requis pour les nouveaux joueurs.'
+      visitor: '&cVous ne pouvez pas supprimer le rôle de visiteur. &7Il est requis pour les visiteurs de votre territoire.'
   chat-action:
-    cancelled: '#t#&c&lCancelled[newline]&c&lChat Action'
-    player: '&7Please enter the name of the target player.'
-    land: '&7Please enter the name of the land.'
-    title: '&7Please enter a new title for this land.'
-    rename: '&7Please enter a new name for this land. Spaces are not allowed.'
-    name: '&7Please enter the name in chat.'
+    cancelled: '#t#&c&lAnnulation[newline]&c&lde l''action du chat.'
+    player: '&7Entrez le nom du joueur cible.'
+    land: '&7Entrez le nom du territoire.'
+    title: '&7Entrez un nouveau titre pour le territoire.'
+    rename: '&7Entrez un nouveau nom pour le territoire. Les espaces ne sont pas permis.'
+    name: '&7Entrez le nom dans le chat.'
     area:
-      create: '&7Please enter a name for the new area.'
-      delete: '&7Please enter the name of the area, which you want to delete.'
-      exists: '&cThe area&4 {area} &calready exists in the land&4 {land}&c. &7Please
-        choose a different name.'
-      max: '&cYou can''t create more areas for this land. &7You reached your limit of&3 {max} &7areas. Permission: lands.areas.NUMBER'
+      create: '&7Entrez un nom pour la nouvelle région.'
+      delete: '&7Entrez le nom de la région que vous voulez supprimer.'
+      exists: '&cLa région&4 {area} &cexiste déjà dans le territoire&4 {land}&c. &7Choisissez un autre nom.'
+      max: '&cVous ne pouvez pas créer plus de régions. &7Vous avez atteint la limite de&3 {max} &7régions. Permission: lands.areas.NUMBER'
 command:
   rent:
-    edit: '&cYou currently can''t edit area&4 {area} &cof land&4 {land}&7, because it''s rented/sold to player&3 {player}&7.'
-    tenant: '&cYou haven''t rented the area at your current position. &7Area&6 {area} &7of land&2 {land} &7is not rented by you.'
-    none: '&cThe area&4 {area} &cof land&4 {land} &cat your current position is not
-      rented or bought by anyone.'
-    status: '&cThe area&4 {area} &cof land&4 {land} &cat your current position is
-      not set for rent or sale.'
+    edit: '&cVous ne pouvez pas modifier la région&4 {area} &cdu territoire&4 {land}&7, parce qu''elle est présentement louée/achetée par&3 {player}&7.'
+    tenant: '&cVous n''avez pas loué la région dans laquelle vous vous trouvez. &7La région&6 {area} &7du territoire&2 {land} &7n''est pas louée par vous.'
+    none: '&cLa région&4 {area} &cdu territoire&4 {land} &cn''est pas louée ou possédée.'
+    status: '&cLa région&4 {area} &cdu territoire&4 {land} &cn''est pas disponible à la location ou a la vente.'
     confirm: |
-      &cPlease confirm that you want to pay&4 {cost}$ &cas compensation to the tenant&4 {player} &cin order to remove him:
-        [T]&aConfirm: &8[CLICK][H]&7Click here to confirm this action and payment.[/H][C]lands rent removetenant confirm[/C][/T]
+      &cConfirmez que vous voulez payer&4 {cost}NewOvers &cen compensation à&4 {player} &cpour le retirer:
+        [T]&aConfirmation: &8[CLICK][H]&7Cliquez pour confirmer.[/H][C]lands rent removetenant confirm[/C][/T]
     set:
       land: '&cYou can''t set the whole land&4 {land} &cfor rent. &7You can either create sub areas to set it for rent or you sell (line = sell) it completely.'
       already: '&cYou currently can''t set this area for rent again. &7The area&6 {area} &7is currently being rented by&3 {player}&7. It will expire in&5 {time}&7.'
