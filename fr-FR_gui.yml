@@ -2802,90 +2802,90 @@ gui:
         data:
           value: 100.0
       plus-3:
-        name: '&aAdd $1000'
+        name: '&aAjouter 1000 NewOvers'
         lore:
-          - '&7Add $1000 to the'
-          - '&7tribute value.'
+          - '&7Ajouter 1000 NewOvers au'
+          - '&7tribut.'
         material: GLOWSTONE_DUST
         slot: 13
         data:
           value: 1000.0
       minus-3:
-        name: '&cRemove $1000'
+        name: '&aRetirer 1000 NewOvers'
         lore:
-          - '&7Remove $1000 from'
-          - '&7the tribute value.'
+          - '&7Retirer 1000 NewOvers du'
+          - '&7tribut.'
         material: REDSTONE
         slot: 15
         data:
           value: 1000.0
       minus-2:
-        name: '&cRemove $100'
+        name: '&aRetirer 100 NewOvers'
         lore:
-          - '&7Remove $100 from'
-          - '&7the tribute value.'
+          - '&7Retirer 100 NewOvers du'
+          - '&7tribut.'
         material: REDSTONE
         slot: 16
         data:
           value: 100.0
       minus-1:
-        name: '&cRemove $1'
+        name: '&aRetirer 1 NewOver'
         lore:
-          - '&7Remove $1 from'
-          - '&7the tribute value.'
+          - '&7Retirer 1 NewOver du'
+          - '&7tribut.'
         material: REDSTONE
         slot: 17
         data:
           value: 1.0
     f:
       tribute:
-        name: '&7Tribute:&c ${tribute}'
+        name: '&7Tribut:&c {tribute} NewOvers'
         lore:
-          - '&7The defending land will need to'
-          - '&7to pay this value in order to'
-          - '&7surrender.'
+          - '&7Le territoire défendant devra'
+          - '&7payer ceci s''ils désirent se'
+          - '&7rendre.'
           - ' '
-          - '&8- &7The maximum tribute for '
-          - '  &7this land is&3 ${max}&7.'
-          - '  &7A server administrator can'
-          - '  &7change that in the config.'
+          - '&8- &7Le tribut maximum pour '
+          - '  &7ce territoire est&3 {max} NewOvers&7.'
+          - '  &7Seul un administrateur peut'
+          - '  &7changer ce paramètre.'
           - ' '
-          - '&cNOTE: &7If you set the tribute'
-          - '&7value to 0, the defending land'
-          - '&7won''t be able to surrender.'
+          - '&cNOTE: &7Si vous fixez le tribut'
+          - '&7à 0, le territoire défendant'
+          - '&7ne pourra pas se rendre.'
         material: GOLD_INGOT
         slot: 14
       send-declaration:
-        name: '&aSend War Declaration'
+        name: '&aEnvoyer la déclaration de guerre'
         lore:
-          - '&7Click here to send this'
-          - '&7war declaration to the'
-          - '&7enemy.'
+          - '&7Cliquez ici pour envoyer la'
+          - '&7déclaration de guerre à'
+          - '&7l''ennemi.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
         slot: 27
       abort-declaration:
-        name: '&cAbort War Declaration'
+        name: '&cAnnuler la déclaration de guerre'
         lore:
-          - '&7Click here to abort this'
-          - '&7war declaration.'
+          - '&7Cliquez ici pour annuler la'
+          - '&7déclaration de guerre.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
         slot: 19
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner à'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 19
     a:
       max-tribute:
-        name: '&4Max Value reached'
+        name: '&4Valeur maximum atteinte'
         lore:
-          - '&7You can''t set the tribute'
-          - '&7value higher than&3 {max}&7.'
+          - '&7Vous ne pouvez pas fixer la'
+          - '&7valeur du tribut en haut de&3 {max}&7.'
           - ' '
-          - '&8- &7You can ask an administrator'
-          - '  &7to change this.'
+          - '&8- &7Demandez à un administrateur pour'
+          - '  &7changer cette valeur.'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -2897,110 +2897,110 @@ gui:
     size: 36
     f:
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner à'
           - '&e{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 28
       close:
-        name: '&cClose'
+        name: '&cFermer'
         lore:
-          - '&7Close this menu.'
+          - '&7Fermer ce menu.'
           - ' '
-          - '&8- &7You can open it again'
-          - '  &7with &8/&3Nation menu&7.'
+          - '&8- &7Vous pouvez le réouvrir'
+          - '  &7avec &8/&3Nation menu&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 9
       war:
-        name: '&8> &cCurrent War'
+        name: '&8> &cGuerre en cours'
         lore:
-          - '&7Get some information'
-          - '&7about the current war.'
+          - '&7Obtenez de l''information à'
+          - '&7propos de la guerre en cours.'
           - ' '
-          - '&7Show information about:'
-          - '&8- &7The enemy nation'
-          - '&8- &7Reward price'
+          - '&7Consulter de l''information:'
+          - '&8- &7La nation ennemie'
+          - '&8- &7La récompense'
         material: IRON_SWORD
         slot: 15
       no-war:
-        name: '&8> &aPeaceful'
+        name: '&8> &aPaisible'
         lore:
-          - '&7Your nation isn''t engaged'
-          - '&7in any war. Everything is'
-          - '&7peaceful.'
+          - '&7Votre nation ne participe'
+          - '&7pas à une guerre. Tout est'
+          - '&7paisible.'
         material: WOODEN_SWORD
         slot: 15
       inbox:
         name: '&8> &6Inbox &8(&7{amount}&8)'
         lore:
-          - '&7Click to open advanced view.'
+          - '&7Cliquez pour ouvrir la vue avancée.'
           - ' '
-          - '&7Received messages:'
+          - '&7Messages reçus:'
           - '{inbox}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJmM2ZjZGNjZmZkOTYzZTQzMzQ4MTgxMDhlMWU5YWUzYTgwNTY2ZDBkM2QyZDRhYjMwNTFhMmNkODExMzQ4YyJ9fX0=
         slot: 16
       stats:
-        name: '&8> &6Statistics'
+        name: '&8> &6Statistiques'
         lore:
-          - '&7Total members: {0}'
+          - '&7Membres totaux: {0}'
           - ' '
-          - '&7Level'
-          - '&7Current: {1}'
-          - ' &7{2} claims for each land'
+          - '&7Niveau'
+          - '&7Présent: {1}'
+          - ' &7{2} claims pour chaque territoire'
           - ' '
-          - '&7Next: {3} &7({4} members)'
-          - ' &a{5} claims for each land'
+          - '&7Prochain: {3} &7({4} membres)'
+          - ' &a{5} claims pour chaque territoire'
           - ' '
-          - '&7Economy'
+          - '&7Économie'
           - '&8- &7Nation'
-          - '  &7Balance: ${6}'
-          - '  &7Nation pays&c ${7} &7upkeep'
-          - '  &7in {8}.'
+          - '  &7Portefeuille: {6} NewOver'
+          - '  &7La nation paye&c {7} NewOvers &7 en coûts'
+          - '  &7de maintenance dans {8}.'
           - ' '
-          - '&8- &4Your land &8({9})'
-          - '  &7Upkeep of&c ${10} &7to the'
-          - '  &7nation in {11}.'
+          - '&8- &4Votre territoire &8({9})'
+          - '  &7Maintenance de&c {10} NewOvers &7à'
+          - '  &7la nation dans {11}.'
         material: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNmYWZmYThjNmM3ZjYyNjIxNjgyZmU1NjcxMWRjM2I4OTQ0NjVmZGY3YTYyZjQzYjMxYTBkMzQwM2YzNGU3In19fQ=='
         slot: 17
     s:
       information:
         name: '&6Information'
         lore:
-          - '&7Here you can view'
-          - '&7some detailed information'
-          - '&7about your nation. This helps'
-          - '&7to keep track of all events'
-          - '&7in your nation.'
+          - '&7Ici vous pouvez consulter de'
+          - '&7l''information détaillée à'
+          - '&7propos de votre nation. Ceci aide'
+          - '&7à garder une trace des évènements'
+          - '&7dans votre nation.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU3NDcwMTBkODRhYTU2NDgzYjc1ZjYyNDNkOTRmMzRjNTM0NjAzNTg0YjJjYzY4YTQ1YmYzNjU4NDAxMDVmZCJ9fX0=
         slot: 11
       lands:
-        name: '&8> &6Lands'
+        name: '&8> &6Territoires'
         lore:
-          - '&7View all lands, which are'
-          - '&7a member in this nation'
+          - '&7Voir les territoires'
+          - '&7membres de la nation.'
         material: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0='
         slot: 13
       spawn:
         name: '&8> &6Spawn'
         lore:
-          - '&7Click here to teleport'
-          - '&7to the capitals spawn.'
+          - '&7Cliquez ici pour vous'
+          - '&7téléporter à la capitale.'
         material: ENDER_PEARL
         slot: 14
       management:
-        name: '&6Management'
+        name: '&6Gestion'
         lore:
-          - '&7Here you can manage your nation.'
-          - '&7You can setup nation taxes,'
-          - '&7edit land flags or set taxes.'
+          - '&7Ici vous pouvez gérer votre nation.'
+          - '&7Vous pouvez fixer les taxes,'
+          - '&7ou modifier les flags.'
         material: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkNDliYWU5NWM3OTBjM2IxZmY1YjJmMDEwNTJhNzE0ZDYxODU0ODFkNWIxYzg1OTMwYjNmOTlkMjMyMTY3NCJ9fX0='
         slot: 20
       taxes:
         name: '&8> &6Taxes'
         lore:
-          - '&7Configure taxes for'
-          - '&7lands of your nation.'
+          - '&7Configurer les taxes'
+          - '&7pour les territoires.'
         material: GOLD_INGOT
         slot: 22
     p:
@@ -3018,75 +3018,75 @@ gui:
         to: 21
 
   nation_lands:
-    title: '&8Nation Members'
+    title: '&8Membres de la nation'
     size: 36
     f:
       back:
-        name: '&cBack'
+        name: '&cRetour'
         lore:
-          - '&7Go back to'
+          - '&7Retourner à'
           - '{back}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 28
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Page précédente'
         lore:
-          - '&7Go to previous page:&9 {previous}'
+          - '&7Aller à la page précédente:&9 {previous}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 30
       page_next:
-        name: '&aNext Page'
+        name: '&aPage suivante'
         lore:
-          - '&7Go to next page:&9 {next}'
+          - '&7Aller à la page suivante:&9 {next}'
           - ' '
-          - '&8- &7Current:&3 {current}'
+          - '&8- &7Page:&3 {current}'
         material: ARROW
         slot: 35
       trust:
-        name: '&8> &aInvite Land'
+        name: '&8> &aInviter un territoire'
         lore:
-          - '&7Click here to trust'
-          - '&7a land to join your nation.'
+          - '&7Cliquez ici pour trust un'
+          - '&7territoire pour rejoindre la nation.'
           - ' '
-          - '&7Available:&3 {lands} &8/&c {max}'
+          - '&7Disponible:&3 {lands} &8/&c {max}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkyZTMxZmZiNTljOTBhYjA4ZmM5ZGMxZmUyNjgwMjAzNWEzYTQ3YzQyZmVlNjM0MjNiY2RiNDI2MmVjYjliNiJ9fX0=
         slot: 32
       untrust:
-        name: '&8> &cUntrust Land'
+        name: '&8> &cUntrust un territoire'
         lore:
-          - '&7Click here to untrust'
-          - '&7a land from your nation.'
+          - '&7Cliquez ici pour untrust un'
+          - '&7territoire pour rejoindre la nation.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljZGI5YWYzOGNmNDFkYWE1M2JjOGNkYTc2NjVjNTA5NjMyZDE0ZTY3OGYwZjE5ZjI2M2Y0NmU1NDFkOGEzMCJ9fX0=
         slot: 33
     l:
       object:
         name: '&2{level} {land}'
         lore:
-          - '&7Open the land information'
-          - '&7menu of this land.'
+          - '&7Ouvrir le menu d''information'
+          - '&7du territoire.'
           - ' '
-          - '&9RIGHT CLICK'
-          - '&7Get more information'
-          - '&7about this land.'
+          - '&9CLIC DROIT'
+          - '&7Obtenez plus d''information'
+          - '&7à propos du territoire.'
           - ' '
-          - '&8- &7Title:'
+          - '&8- &7Titre:'
           - '  &7{title}'
         material: PLAYER_HEAD
         from: 10
         to: 27
       capital:
-        name: '&4Capital {land}'
+        name: '&4Capitale {land}'
         lore:
-          - '&7Open the land information'
-          - '&7menu of this land.'
+          - '&7Ouvrir le menu d''information'
+          - '&7du territoire.'
           - ' '
-          - '&9RIGHT CLICK'
-          - '&7Get more information'
-          - '&7about this land.'
+          - '&9CLIC DROIT'
+          - '&7Obtenez plus d''information'
+          - '&7à propos du territoire.'
           - ' '
-          - '&8- &7Title:'
+          - '&8- &7Titre:'
           - '  &7{title}'
         material: PLAYER_HEAD
         from: 10
