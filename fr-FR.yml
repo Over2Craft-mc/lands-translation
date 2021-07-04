@@ -335,99 +335,91 @@ command:
       &cConfirmez que vous voulez payer&4 {cost}NewOvers &cen compensation à&4 {player} &cpour le retirer:
         [T]&aConfirmation: &8[CLICK][H]&7Cliquez pour confirmer.[/H][C]lands rent removetenant confirm[/C][/T]
     set:
-      land: '&cYou can''t set the whole land&4 {land} &cfor rent. &7You can either create sub areas to set it for rent or you sell (line = sell) it completely.'
-      already: '&cYou currently can''t set this area for rent again. &7The area&6 {area} &7is currently being rented by&3 {player}&7. It will expire in&5 {time}&7.'
-      sold: '&cYou can''t set a area, which has been sold, for rent. &7The area&6 {area} &7has been bought by player&3 {player}&7.'
-      success: '&7You set area&6 {area} &7for rent. The tenant will pay&c ${cost}
-        &7each&5 {time}&7.'
+      land: '&cVous ne pouvez pas mettre le territoire&4 {land} &centièrement en location. &7Vous pouvez créer des sous-régions à louer ou à vendre.'
+      already: '&cVous ne pouvez pas mettre en location cette région. &7La région&6 {area} &7est présentement louée par&3 {player}&7. La location expire dans&5 {time}&7.'
+      sold: '&cVous ne pouvez pas mettre en location une région vendue. &7La région&6 {area} &7a été achetée par&3 {player}&7.'
+      success: '&7Vous avez mis&6 {area} &7en location. Le locataire paiera&c {cost} NewOvers &7à tous les&5 {time}&7.'
       invalid: |
         &7Your line format is invalid (line: {line})
          &81. line:&7 Lands
-         &82. line:&7 rent &8[&7area&8]
-         &83. line:&7 TIME maxTime (not required)
-         &84. line:&7 costs (example: 5 = $5)
+         &82. line:&7 rent &8[&7région&8]
+         &83. line:&7 temps maxTemps (optionnel)
+         &84. line:&7 coûts (exemple: 5 = 5 NewOvers)
       info: |
         [NoPrefix]
-        &7---------<- &5&lRent Area &7->---------
-        [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this area.[/H][C]lands view here[/C][/T]
-         &7Area:&6 {area}
-         &7Cost:&c ${cost} &7each {time}
-         &8Max time: {max}
-        &7---------<- &5&lRent Area &r&7->---------
+        &7---------<- &5&lLouer région &7->---------
+        [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]lands view here[/C][/T]
+         &7Région:&6 {area}
+         &7Coût:&c {cost} NewOvers &7chaque {time}
+         &8Temps maximum: {max}
+        &7---------<- &5&lLouer région &r&7->---------
     rent:
-      trusted: '&cYou can''t rent area&4 {area} &cof land&4 {land}&c. &7You''re already trusted in this area.'
-      expire: '&cYou can''t add any more time to your rental of area&4 {area}&c. &7The land&2 {land} &7removed it for rental. It will expire in&5 {time}&7.'
-      max: '&cYou can''t add any more time to your rental of area&4 {area}&c. &7The land&2 {land} &7configured a maximum of&5 {max} &7in total.'
-      add: '&7You added&5 {add} &7to your rental of area&6 {area} &7for&c ${cost}&7.
-        It will expire in&5 {time}&7.'
-      success: '&7You rented area&6 {area} &7of land&2 {land} &7for&c ${cost}&7. It
-        will expire in&5 {time}&7.'
+      trusted: '&cVous ne pouvez pas louer&4 {area} &cdu territoire&4 {land}&c. &7Vous êtes déjà trust dans cette région.'
+      expire: '&cVous ne pouvez pas ajouter plus de temps à la location de&4 {area}&c. &7Le territoire&2 {land} &7l''a retiré de la location. Le bail expire dans&5 {time}&7.'
+      max: '&cVous ne pouvez pas ajouter plus de temps à la location de&4 {area}&c. &7Le territoire&2 {land} &7a fixé&5 {max} &7comme temps maximum de location.'
+      add: '&7Vous avez ajouté&5 {add} &7à la location de la région&6 {area} &7pour un coût de&c {cost} NewOvers&7. La location expire dans&5 {time}&7.'
+      success: '&7Vous avez loué la région&6 {area} &7du territoire&2 {land} &7pour un coût de&c {cost} NewOvers&7. La location expire dans&5 {time}&7.'
       info: |
         [NoPrefix]
-        &7---------<- &5&lRented Info &7->---------
-        [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this area.[/H][C]lands view here[/C][/T]
-         &7Area:&6 {area}
-         &7Tenant: {player}
-         &7Time left:&5 {left}
-         &8Rent: ${cost} each {time}
-        &7---------<- &5&lRented Info &r&7->---------
+        &7---------<- &5&lInformation location &7->---------
+        [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]lands view here[/C][/T]
+         &7Région:&6 {area}
+         &7Locataire: {player}
+         &7Temps restant:&5 {left}
+         &8Loyer: ${cost} chaque {time}
+        &7---------<- &5&lInformation location &r&7->---------
     cancel:
-      success: '&7You cancelled the rental of area&6 {area}&7. You no longer have
-        access to this area.'
+      success: '&7Vous avez rompu votre bail pour&6 {area}&7. Vous n''avez plus accès à cette région.'
     remove:
       offer:
         success:
-          land: '&7Land&2 {land} &7is no longer able to be purchased.'
-          area: '&7Area&6 {area} &7of land&2 {land} &7is no longer able to be rented
-            or purchased.'
+          land: '&7Le territoire&2 {land} &7ne peut plus être acheté.'
+          area: '&7La région&6 {area} &7du territoire&2 {land} &7ne peut plus être achetée ou louée.'
       tenant:
-        success: '&7You removed the tenant&3 {player} &7from area&6 {area} &7of land&2
-          {land} &7and paid&c {cost}$ &7as compensation.'
+        success: '&7Vous avez retiré le locataire&3 {player} &7de la région&6 {area} &7du territoire&2 {land} &7et avez payé&c {cost} NewOvers &7en compensation.'
   sell:
     sell:
-      rented: '&cYou can''t sell a area, which is being rented by a player. &7The area&6 {area} &7is currently being rented by&3 {player}&7. It will expire in&5 {time}&7.'
+      rented: '&cVous ne pouvez pas vendre une région déjà louée par un joueur. &7La région&6 {area} &7est louée par&3 {player}&7. Le bail expire dans&5 {time}&7.'
       success:
-        area: '&7You set area&6 {area} &7for sale. Cost:&c ${cost}'
-        land: '&7You set the whole land&2 {land} &7for sale. Cost:&c ${cost}'
+        area: '&7Vous avez mis la région&6 {area} &7en vente. Coût:&c {cost} NewOvers'
+        land: '&7Vous avez mis le territoire&2 {land} &7en vente. Coût:&c {cost} NewOvers'
       invalid: |
-        &7Your line format is invalid (line: {line})
+        &7Le format est invalide. (ligne: {line})
          &81. line:&7 Lands
-         &82. line:&7 sell &8[&7area&8]
-         &83. line:&7 costs (example: 5 = $5)
+         &82. line:&7 sell &8[&7région&8]
+         &83. line:&7 coût (exemple: 5 = 5 NewOvers)
     buy:
       success:
-        area: '&7You bought area&6 {area} &7of land&2 {land} &7for&c ${cost}&7.'
-        land: '&7You bought the land&2 {land} &7for&c ${cost}&7.'
+        area: '&7Vous avez acheté la région&6 {area} &7du territoire&2 {land} &7pour un coût de&c {cost} NewOvers&7.'
+        land: '&7Vous avez acheté le territoire&2 {land} &7pour un coût de&c {cost} NewOvers&7.'
       info:
         area: |
           [NoPrefix]
-          &7---------<- &5&lBuy Area &7->---------
-          [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this area.[/H][C]lands view here[/C][/T]
-           &7Area:&6 {area}
-           &7Cost:&c ${cost}
-          &7---------<- &5&lBuy Area &7->---------
+          &7---------<- &5&lAcheter région &7->---------
+          [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]lands view here[/C][/T]
+           &7Région:&6 {area}
+           &7Coût:&c {cost} NewOvers
+          &7---------<- &5&lAcheter région &7->---------
         land: |
           [NoPrefix]
-          &7---------<- &5&lBuy Land &7->---------
-          [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this land.[/H][C]lands view[/C][/T]
-          &7Cost:&c ${cost}
-          &7---------<- &5&lBuy Land &7->---------
+          &7---------<- &5&lAcheter territoire &7->---------
+          [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir le territoire.[/H][C]lands view[/C][/T]
+          &7Coût:&c {cost} NewOvers
+          &7---------<- &5&lAcheter territoire &7->---------
     sold: |
       [NoPrefix]
-      &7---------<- &5&lArea Sold &7->---------
-      [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this area.[/H][C]lands view here[/C][/T]
-       &7Area:&6 {area}
-       &7Sold to&3 {player} &7for&c ${cost}&7.
-      &7---------<- &5&lArea Sold &7->---------
+      &7---------<- &5&lRégion vendue &7->---------
+      [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]lands view here[/C][/T]
+       &7Région:&6 {area}
+       &7Vendu à&3 {player} &7pour le coût de&c {cost} NewOvers&7.
+      &7---------<- &5&lRégion vendue &7->---------
   general:
     no-permission: '&cYou don''t have permission to do this. &8You need permission {permission}.'
     land-not-exist: '&cThe land&2 {land} &cdoesn''t exist. &7There''s no land with this name.'
-    area-not-exist: '&cArea&4 {area} &cdoes not exist in land&4 {land}&c. &7You can
-      create a new area in your land menu in the areas section. &7Typo?'
+    area-not-exist: '&cArea&4 {area} &cdoes not exist in land&4 {land}&c. &7You can create a new area in your land menu in the areas section. &7Typo?'
     land-not-member: '&cYou''re not trusted in land&4 {land}&c. &7Use &8/&3Lands menu &7to see the lands you''re a member of.'
     no-edit-land: '&cYou haven''t selected your edit land yet. &7Use &8/&3Lands edit &8<&3land&8> &7to select it.'
-    name-exists: '&cThe name&4 {name} &cis already taken by another land or nation.
-      &7You need to choose a different one.'
+    name-exists: '&cThe name&4 {name} &cis already taken by another land or nation. &7You need to choose a different one.'
     money-cost-bank: '&cYou don''t have enough to pay the cost. &7You need&c ${cost}&7. Deposit some money into your land bank: &8/&3Lands deposit {cost}'
     money-cost: '&cYou don''t have enough to pay the cost. &7You need&c ${cost}&7.'
     swear-word: '&cDetected a swear word. &7Please do not use mature language. Word:&c
