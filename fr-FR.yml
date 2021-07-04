@@ -414,42 +414,38 @@ command:
        &7Vendu à&3 {player} &7pour le coût de&c {cost} NewOvers&7.
       &7---------<- &5&lRégion vendue &7->---------
   general:
-    no-permission: '&cYou don''t have permission to do this. &8You need permission {permission}.'
-    land-not-exist: '&cThe land&2 {land} &cdoesn''t exist. &7There''s no land with this name.'
-    area-not-exist: '&cArea&4 {area} &cdoes not exist in land&4 {land}&c. &7You can create a new area in your land menu in the areas section. &7Typo?'
-    land-not-member: '&cYou''re not trusted in land&4 {land}&c. &7Use &8/&3Lands menu &7to see the lands you''re a member of.'
-    no-edit-land: '&cYou haven''t selected your edit land yet. &7Use &8/&3Lands edit &8<&3land&8> &7to select it.'
-    name-exists: '&cThe name&4 {name} &cis already taken by another land or nation. &7You need to choose a different one.'
-    money-cost-bank: '&cYou don''t have enough to pay the cost. &7You need&c ${cost}&7. Deposit some money into your land bank: &8/&3Lands deposit {cost}'
-    money-cost: '&cYou don''t have enough to pay the cost. &7You need&c ${cost}&7.'
-    swear-word: '&cDetected a swear word. &7Please do not use mature language. Word:&c
-      {word}'
-    action-cooldown: '&cYou can''t do this now. &7You need to wait&5 {time}&7. &8Bypass: {bypass}'
-    land-no-own: '&cYou don''t own a land. &7Use &8/&3Lands create &7to create one.'
-    world-invalid: '&cYou can''t do this in your current world. &7An administrator needs to add world&3 {world} &7to the config first.'
-    wilderness: '&cThere''s no claimed land at your current position. &7Please go into your land first, in order to execute this action. &7You can use &8/&3Lands menu &7to see your lands.'
-    player-not-exist: '&cThere''s no player with the name&4 {player}&c. &7Typo?'
-    player-offline: '&cThere''s currently no player with the name&4 {player} &conline. &7Typo?'
-    player-self: '&cYou can''t do that with yourself. &7You''re funny. :)'
-    banks-disabled: '&7Banks were disabled by an administrator. &8They can enable
-      it in the config.'
-    land-not-trusted: '&cPlayer&4 {player} &7isn''t part of the land&4 {land}&c. You need to trust him first using &8/&3Lands trust&7.'
-    area-not-trusted: '&cYou can''t do that here. &7You''re not trusted in area&6 {area} &7of land&2 {land}&7.'
-    invalid-number: '&cYour input&4 {input} &cisn''t a number. &7The&3 {argument} &7argument needs to be a number.'
-    number: '&cYour input&4 {input} &cisn''t a number. &7The&3 {argument} &7argument needs to be a number.'
+    no-permission: '&cVous n''avez pas la permission de faire ceci. &8Vous devez avoir la permission {permission}.'
+    land-not-exist: '&cLe territoire&2 {land} &cn''existe pas. &7Aucun territoire ne porte ce nom.'
+    area-not-exist: '&cLa région&4 {area} &cn''existe pas dans le territoire&4 {land}&c. &7Vous pouvez créer une novelle région dans le menu. &7Faute de frappe?'
+    land-not-member: '&cVous n''êtes pas trust dans le territoire&4 {land}&c. &7Utilisez &8/&3Lands menu &7pour voir les territoires dans lesquels vous êtes membres.'
+    no-edit-land: '&cVous n''avez pas sélectionné le territoire à modifier. &7Use &8/&3Lands edit &8<&3land&8> &7pour le sélectionner.'
+    name-exists: '&cLe nom&4 {name} &cest déjà utilisé par un autre territoire ou une nation. &7Choisissez-en un nouveau.'
+    money-cost-bank: '&cVous n''avez pas assez pour payer les coûts. &7Vous avez besoin de&c {cost} NewOvers&7. Pour déposer de l''argent dans la banque du territoire: &8/&3Lands deposit {cost}'
+    money-cost: '&cVous n''avez pas assez pour payer les coûts. &7Vous avez besoin de&c {cost} NewOvers&7.'
+    swear-word: '&cMot grossier détecté. &7N''utilisez pas de mots grossiers. Mot:&c {word}'
+    action-cooldown: '&cVous ne pouvez pas faire ceci. &7Attendez&5 {time}&7. &8Bypass: {bypass}'
+    land-no-own: '&cVous ne possédez aucun territoire. &7Utilisez &8/&3Lands create &7pour en créer un.'
+    world-invalid: '&cVous ne pouvez pas faire ceci dans ce monde.'
+    wilderness: '&cIl n''y a aucun terrain claim à votre position. &7Tenez-vous dans votre territoire pour éxécuter cette action. &7Vous pouvez utiliser &8/&3Lands menu &7pour voir vos territoires.'
+    player-not-exist: '&cAucun joueur n''est nommé&4 {player}&c. &7Faute de frappe?'
+    player-offline: '&cAucun joueur nommé&4 {player} &cn''est connecté. &7Faute de frappe?'
+    player-self: '&cVous ne pouvez pas faire ceci sur vous-même. &7T''es drôle toi :)'
+    banks-disabled: '&7Les banques ont été désactivées par l''administrateur.'
+    land-not-trusted: '&4 {player} &7ne fait pas partie du territoire&4 {land}&c. Vous devez le trust en utilisant &8/&3Lands trust&7.'
+    area-not-trusted: '&cVous ne pouvez pas faire ceci ici. &7Vous n''êtes pas trust dans la région&6 {area} &7du territoire&2 {land}&7.'
+    invalid-number: '&4 {input} &cn''est pas un nombre. &3 {argument} &7doit être un nombre.'
+    number: '&4 {input} &cn''est pas un nombre. &3 {argument} &7doit être un nombre.'
     none: |
-      &cYou're not a member of any land.
+      &cVous n''êtes pas membre d''un territoire.
 
-        &7Any land can invite you: &8/&3Lands trust
-        [T]&7Create your own land: &8/&3Lands create[H]&7Click to copy.[/H][SC]lands create[/SC][/T]
+        &7Pour se faire inviter: &8/&3Lands trust
+        [T]&7Créez votre propre territoire: &8/&3Lands create[H]&7Cliquez pour copier.[/H][SC]lands create[/SC][/T]
     name:
-      number: '&cYou''re not allowed to use numbers for this name. &7Please use only letters. Found number:&3 {invalid}'
-      character: '&cYou can''t use invalid characters for the name. &7Please use only letters and numbers. &7Found invalid character:&3 {invalid}'
-      color: '&cYou''re not allowed to use color codes for this name. &7Please remove any color codes from your input.'
-      length: '&cThis name is too long. &7Max length is&3 {max} &7characters &8(&7yours:
-        {input}&8)&7. &8This includes color codes.'
-      empty: '&cThis name is invalid. &7You need to enter at least one character other
-        than color codes.'
+      number: '&cVous ne pouvez pas utiliser de chiffres dans le nom. &7N''utilisez que des lettres. Chiffre:&3 {invalid}'
+      character: '&cVous ne pouvez pas utiliser de caractères invalides dans le nom. &7N''utilisez que des chiffres ou des lettres. &7Caractère invalide:&3 {invalid}'
+      color: '&cVous ne pouvez pas utiliser de code couleur pour ce nom. &7Retirez ceux-ci.'
+      length: '&cCe nom est trop long. &7Le maximum permis est de&3 {max} &7caractères &8(&7Entrée:{input}&8)&7. &8Ceci inclut les codes couleur.'
+      empty: '&cCe nom est invalide. &7Vous devez entrer au moins un caractère outre un code couleur.'
   help:
     header: '[NoPrefix][T]&7----------&6<<<<&7-[H]&7Click here to navigate to the
       previous page.[/H][C]{cmd} help {previous}[/C][/T] &2Lands Help &7Page&3 {page}
