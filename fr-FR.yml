@@ -164,44 +164,44 @@ general:
     bossbar: '&7Attendez&5 {time} &7seconde(s) avant la téléportation.'
 help:
   command:
-    help: '[T]&8/&3Lands help &8[&3page&8] - &7Obtenir de l''aide[H]&7Cliquez pour copier.[/H][SC]lands help[/SC][/T]'
-    edit: '[T]&8/&3Lands edit &8<&3land&8> &8- &7Entrer le mode d''édition de territoire[H]&7Le mode d''édition de territoire est utilisé pour les commandes telles que /Lands claim. &7Cliquez pour copier.[/H][SC]lands edit[/SC][/T]'
-    claim: '[T]&8/&3Lands claim &8[&3land | auto&8] - &7Claim chunk[H]&7Claim le chunk dans lequel vous vous trouvez. Vous pouvez aussi spécifier un territoire vers lequel ce claim devrait aller. &7Cliquez pour copier.[/H][SC]lands claim[/SC][/T]'
-    create: '[T]&8/&3Lands create &8<&3name&8> - &7Créer un nouveau territoire.[H]&7Cliquez pour copier.[/H][SC]lands create[/SC][/T]'
-    leave: '[T]&8/&3Lands leave &8[&3land&8] &8- &7Quitter un territoire ou une région.[H]&7Si vous ne spécifiez pas une région, vous quitterez celle dans laquelle vous vous trouvez. &7Cliquez pour copier.[/H][SC]lands leave[/SC][/T]'
-    unclaim: '[T]&8/&3Lands unclaim &8- &7Unclaim un chunk[H]&7Ceci supporte également /Lands selection. &7Cliquez pour copier.[/H][SC]lands unclaim[/SC][/T]'
-    delete: '[T]&8/&3Lands delete &8<&3land&8> &8- &7Supprimer un territoire[H]&7Cliquez pour copier.[/H][SC]lands delete[/SC][/T]'
-    trust: '[T]&8/&3Lands trust &8<&3player&8> [&3area&8] - &7Trust un joueur[H]&7Utilisez * comme nom de région pour trust le joueur dans le territoire en entier. &7Cliquez pour copier.[/H][SC]lands trust[/SC][/T]'
-    untrust: '[T]&8/&3Lands untrust &8[&3area&8] - &7Untrust un joueur[H]&7Utilisez * comme nom de région pour untrust le joueur dans le territoire en entier. &7Cliquez pour copier.[/H][SC]lands untrust[/SC][/T]'
-    setRole: '[T]&8/&3Lands setrole &8<&3player&8> &8<&3area&8> <&3role&8> - &7Octroyer un rôle[H]&7Cliquez pour copier.[/H][SC]lands setrole[/SC][/T]'
-    accept: '[T]&8/&3Lands accept &8<&3land&8> - &7Accepter invitation[H]&7Vous pouvez consulter toutes vos invitations en faisant /Lands invites. &7Cliquez pour copier.[/H][SC]lands accept[/SC][/T]'
-    deny: '[T]&8/&3Lands deny &8<&3land&8> - &7Refuser invitation[H]&7Cliquez pour copier.[/H][SC]lands deny[/SC][/T]'
-    view: '[T]&8/&3Lands view &8[&3disable&8] &8- &7Information à propos des claims[H]&7Cette commande va afficher les claims proches également. &7Cliquez pour copier.[/H][SC]lands view[/SC][/T]'
-    menu: '[T]&8/&3Lands menu &8[&3here&8] &8- &7Ouvrir le menu de territoire / région[H]&7Cliquez pour copier.[/H][SC]lands menu[/SC][/T]'
-    setSpawn: '[T]&8/&3Lands setspawn - &7Placer le spawn de territoire[H]&7Cliquez pour copier.[/H][SC]lands setspawn[/SC][/T]'
-    spawn: '[T]&8/&3Lands spawn &8[&3land&8] - &7Se téléporter au territoire[H]&7Cliquez pour copier.[/H][SC]lands spawn[/SC][/T]'
-    wild: '[T]&8/&3Lands wild &8[&3world&8] &8[&3player&8] &8- &7Se téléporter à une location aléatoire[H]&7Cliquez pour copier.[/H][SC]lands wild[/SC][/T]'
-    top: '[T]&8/&3Lands top &8[&3mode&8] [&3page&8] &8- &7Voir le top 10 des territoires[H]&7&7Cliquez pour copier.[/H][SC]lands top[/SC][/T]'
-    selection: '[T]&8/&3Lands selection &8[&3assign &8| &3expand &8| &3pos1 &8| &3pos2&8] &8- &7Mode de séléction[H]&7Avec cette commande vous pouvez modifier une sous-région. &7Cliquez pour copier.[/H][SC]lands selection[/SC][/T]'
-    chat: '[T]&8/&3Lands chat &8[&3land&8] <&3message&8> &8- &7Chat de territoire[H]&7Cliquez pour copier.[/H][SC]lands chat[/SC][/T]'
-    rename: '[T]&8/&3Lands rename &8<&3name&8> - &7Renommer territoire[H]&7Cliquez pour copier.[/H][SC]lands rename[/SC][/T]'
-    teleport: '[T]&8/&3Lands teleport &8[&3world&8] <&3x&8> <&3z&8> - &7Se téléporter à un chunk[H]&7Cliquez pour copier.[/H][SC]lands teleport[/SC][/T]'
-    invites: '[T]&8/&3Lands invites &8- &7Voir les invitations reçues[H]&7Cliquez pour copier.[/H][SC]lands invites[/SC][/T]'
-    info: '[T]&8/&3Lands info &8[&3land&8] - &7Voir de l''information à propos du territoire[H]&7Cliquez pour copier.[/H][SC]lands info[/SC][/T]'
-    player: '[T]&8/&3Lands player &8<&3player&8> - &7Voir de l''information à propos du joueur[H]&7Cliquez pour copier.[/H][SC]lands player[/SC][/T]'
-    map: '[T]&8/&3Lands map &8- &7Voir la map[H]&7Cliquez pour copier.[/H][SC]lands map[/SC][/T]'
-    balance: '[T]&8/&3Lands balance &8[&3land&8] - &7Voir votre portefeuille[H]&7&7Cliquez pour copier.[/H][SC]lands balance[/SC][/T]'
-    deposit: '[T]&8/&3Lands deposit &8[&3land&8] <&3amount&8> - &7Déposer des NewOvers[H]&7&7Cliquez pour copier.[/H][SC]lands deposit[/SC][/T]'
-    withdraw: '[T]&8/&3Lands withdraw &8[&3land&8] <&3amount&8> - &7Retirer des NewOvers[H]&7&7Cliquez pour copier.[/H][SC]lands withdraw[/SC][/T]'
-    list: '[T]&8/&3Lands list &8[&3world&8] - &7Voir une liste des territoires[H]&7Cliquez pour copier.[/H][SC]lands list[/SC][/T]'
-    assign: '[T]&8/&3Lands assign &8<&3area&8> - &7Assigner la séléction à une région[H]&7&7Cliquez pour copier.[/H][SC]lands assign[/SC][/T]'
-    setowner: '[T]&8/&3Lands setowner &8<&3player&8> - &7Transférer la possession[H]&7&7Cliquez pour copier.[/H][SC]lands setowner[/SC][/T]'
-    ban: '[T]&8/&3Lands ban &8<&3player&8> [&3area&8] - &7Bannir un joueur[H]&7Cliquez pour copier.[/H][SC]lands ban[/SC][/T]'
-    unban: '[T]&8/&3Lands unban &8<&3player&8> [&3area&8] - &7Débannir un joueur[H]&7&7Cliquez pour copier.[/H][SC]lands unban[/SC][/T]'
-    taxes: '[T]&8/&3Lands taxes &8- &7Voir les prochains paiements de taxes[H]&7Cliquez pour copier.[/H][SC]lands taxes[/SC][/T]'
-    unstuck: '[T]&8/&3Lands unstuck &8- &7Vous téléporte en dehors de pièges[H]&7Au-cas où vous restez coincé dans un territoire. &7Cliquez pour copier.[/H][SC]lands unstuck[/SC][/T]'
-    claims: '[T]&8/&3Lands claims &8[&3land&8] &8- &7Liste les claims de votre territoire[H]&7Cette commande va vous montrer tous les /Lands claim de votre territoire. &7Cliquez pour copier.[/H][SC]lands claims[/SC][/T]'
-    rent: '[T]&8/&3Lands rent &8<&3cancel &8| &3info &8| &3removeOffer &8| &3removeTenant&8> &8- &7Gérer les locations[H]&7Avec cette commande vous pouvez gérer les locations à votre position actuelle. &7Cliquez pour copier.[/H][SC]lands rent[/SC][/T]'
+    help: '[T]&8/&3territoire help &8[&3page&8] - &7Obtenir de l''aide[H]&7Cliquez pour copier.[/H][SC]territoire help[/SC][/T]'
+    edit: '[T]&8/&3territoire edit &8<&3land&8> &8- &7Entrer le mode d''édition de territoire[H]&7Le mode d''édition de territoire est utilisé pour les commandes telles que /territoire claim. &7Cliquez pour copier.[/H][SC]territoire edit[/SC][/T]'
+    claim: '[T]&8/&3territoire claim &8[&3land | auto&8] - &7Claim chunk[H]&7Claim le chunk dans lequel vous vous trouvez. Vous pouvez aussi spécifier un territoire vers lequel ce claim devrait aller. &7Cliquez pour copier.[/H][SC]territoire claim[/SC][/T]'
+    create: '[T]&8/&3territoire create &8<&3name&8> - &7Créer un nouveau territoire.[H]&7Cliquez pour copier.[/H][SC]lands create[/SC][/T]'
+    leave: '[T]&8/&3territoire leave &8[&3land&8] &8- &7Quitter un territoire ou une région.[H]&7Si vous ne spécifiez pas une région, vous quitterez celle dans laquelle vous vous trouvez. &7Cliquez pour copier.[/H][SC]lands leave[/SC][/T]'
+    unclaim: '[T]&8/&3territoire unclaim &8- &7Unclaim un chunk[H]&7Ceci supporte également /Lands selection. &7Cliquez pour copier.[/H][SC]lands unclaim[/SC][/T]'
+    delete: '[T]&8/&3territoire delete &8<&3land&8> &8- &7Supprimer un territoire[H]&7Cliquez pour copier.[/H][SC]territoire delete[/SC][/T]'
+    trust: '[T]&8/&3territoire trust &8<&3player&8> [&3area&8] - &7Trust un joueur[H]&7Utilisez * comme nom de région pour trust le joueur dans le territoire en entier. &7Cliquez pour copier.[/H][SC]territoire trust[/SC][/T]'
+    untrust: '[T]&8/&3territoire untrust &8[&3area&8] - &7Untrust un joueur[H]&7Utilisez * comme nom de région pour untrust le joueur dans le territoire en entier. &7Cliquez pour copier.[/H][SC]territoire untrust[/SC][/T]'
+    setRole: '[T]&8/&3territoire setrole &8<&3player&8> &8<&3area&8> <&3role&8> - &7Octroyer un rôle[H]&7Cliquez pour copier.[/H][SC]lands setrole[/SC][/T]'
+    accept: '[T]&8/&3territoire accept &8<&3land&8> - &7Accepter invitation[H]&7Vous pouvez consulter toutes vos invitations en faisant /territoire invites. &7Cliquez pour copier.[/H][SC]territoire accept[/SC][/T]'
+    deny: '[T]&8/&3territoire deny &8<&3land&8> - &7Refuser invitation[H]&7Cliquez pour copier.[/H][SC]lands deny[/SC][/T]'
+    view: '[T]&8/&3territoire view &8[&3disable&8] &8- &7Information à propos des claims[H]&7Cette commande va afficher les claims proches également. &7Cliquez pour copier.[/H][SC]territoire view[/SC][/T]'
+    menu: '[T]&8/&3territoire menu &8[&3here&8] &8- &7Ouvrir le menu de territoire / région[H]&7Cliquez pour copier.[/H][SC]territoire menu[/SC][/T]'
+    setSpawn: '[T]&8/&3territoire setspawn - &7Placer le spawn de territoire[H]&7Cliquez pour copier.[/H][SC]territoire setspawn[/SC][/T]'
+    spawn: '[T]&8/&3territoire spawn &8[&3land&8] - &7Se téléporter au territoire[H]&7Cliquez pour copier.[/H][SC]territoire spawn[/SC][/T]'
+    wild: '[T]&8/&3territoire wild &8[&3world&8] &8[&3player&8] &8- &7Se téléporter à une location aléatoire[H]&7Cliquez pour copier.[/H][SC]territoire wild[/SC][/T]'
+    top: '[T]&8/&3territoire top &8[&3mode&8] [&3page&8] &8- &7Voir le top 10 des territoires[H]&7&7Cliquez pour copier.[/H][SC]territoire top[/SC][/T]'
+    selection: '[T]&8/&3territoire selection &8[&3assign &8| &3expand &8| &3pos1 &8| &3pos2&8] &8- &7Mode de séléction[H]&7Avec cette commande vous pouvez modifier une sous-région. &7Cliquez pour copier.[/H][SC]territoire selection[/SC][/T]'
+    chat: '[T]&8/&3territoire chat &8[&3land&8] <&3message&8> &8- &7Chat de territoire[H]&7Cliquez pour copier.[/H][SC]territoire chat[/SC][/T]'
+    rename: '[T]&8/&3territoire rename &8<&3name&8> - &7Renommer territoire[H]&7Cliquez pour copier.[/H][SC]territoire rename[/SC][/T]'
+    teleport: '[T]&8/&3territoire teleport &8[&3world&8] <&3x&8> <&3z&8> - &7Se téléporter à un chunk[H]&7Cliquez pour copier.[/H][SC]territoire teleport[/SC][/T]'
+    invites: '[T]&8/&3territoire invites &8- &7Voir les invitations reçues[H]&7Cliquez pour copier.[/H][SC]territoire invites[/SC][/T]'
+    info: '[T]&8/&3territoire info &8[&3land&8] - &7Voir de l''information à propos du territoire[H]&7Cliquez pour copier.[/H][SC]territoire info[/SC][/T]'
+    player: '[T]&8/&3territoire player &8<&3player&8> - &7Voir de l''information à propos du joueur[H]&7Cliquez pour copier.[/H][SC]territoire player[/SC][/T]'
+    map: '[T]&8/&3territoire map &8- &7Voir la map[H]&7Cliquez pour copier.[/H][SC]territoire map[/SC][/T]'
+    balance: '[T]&8/&3territoire balance &8[&3land&8] - &7Voir votre portefeuille[H]&7&7Cliquez pour copier.[/H][SC]territoire balance[/SC][/T]'
+    deposit: '[T]&8/&3territoire deposit &8[&3land&8] <&3amount&8> - &7Déposer des NewOvers[H]&7&7Cliquez pour copier.[/H][SC]territoire deposit[/SC][/T]'
+    withdraw: '[T]&8/&3territoire withdraw &8[&3land&8] <&3amount&8> - &7Retirer des NewOvers[H]&7&7Cliquez pour copier.[/H][SC]territoire withdraw[/SC][/T]'
+    list: '[T]&8/&3territoire list &8[&3world&8] - &7Voir une liste des territoires[H]&7Cliquez pour copier.[/H][SC]territoire list[/SC][/T]'
+    assign: '[T]&8/&3territoire assign &8<&3area&8> - &7Assigner la séléction à une région[H]&7&7Cliquez pour copier.[/H][SC]territoire assign[/SC][/T]'
+    setowner: '[T]&8/&3territoire setowner &8<&3player&8> - &7Transférer la possession[H]&7&7Cliquez pour copier.[/H][SC]territoire setowner[/SC][/T]'
+    ban: '[T]&8/&3territoire ban &8<&3player&8> [&3area&8] - &7Bannir un joueur[H]&7Cliquez pour copier.[/H][SC]territoire ban[/SC][/T]'
+    unban: '[T]&8/&3territoire unban &8<&3player&8> [&3area&8] - &7Débannir un joueur[H]&7&7Cliquez pour copier.[/H][SC]territoire unban[/SC][/T]'
+    taxes: '[T]&8/&3territoire taxes &8- &7Voir les prochains paiements de taxes[H]&7Cliquez pour copier.[/H][SC]territoire taxes[/SC][/T]'
+    unstuck: '[T]&8/&3territoire unstuck &8- &7Vous téléporte en dehors de pièges[H]&7Au-cas où vous restez coincé dans un territoire. &7Cliquez pour copier.[/H][SC]territoire unstuck[/SC][/T]'
+    claims: '[T]&8/&3territoire claims &8[&3land&8] &8- &7Liste les claims de votre territoire[H]&7Cette commande va vous montrer tous les /territoire claim de votre territoire. &7Cliquez pour copier.[/H][SC]territoire claims[/SC][/T]'
+    rent: '[T]&8/&3territoire rent &8<&3cancel &8| &3info &8| &3removeOffer &8| &3removeTenant&8> &8- &7Gérer les locations[H]&7Avec cette commande vous pouvez gérer les locations à votre position actuelle. &7Cliquez pour copier.[/H][SC]territoire rent[/SC][/T]'
     wars:
       declare: '[T]&8/&3Wars declare &8<&3land or nation&8> - &7Déclarer la guerre[H]&7&7Cliquez pour copier.[/H][SC]wars declare[/SC][/T]'
       info: '[T]&8/&3Wars info - &7Voir une guerre présente ou à venir[H]&7Cliquez pour copier.[/H][SC]wars info[/SC][/T]'
@@ -220,12 +220,12 @@ help:
       rename: '[T]&8/&3Nations rename &8- &7Renommer une nation[H]&7Cliquez pour copier.[/H][SC]nations rename[/SC][/T]'
       setcapital: '[T]&8/&3Nations setcapital &8- &7Fixer une capitale[H]&7Cliquez pour copier.[/H][SC]nations setcapital[/SC][/T]'
     admin:
-      admin: '[T]&8/&3Lands admin &8<&3sub-command&8> &8- &7Commandes administrateurs[H]&7Cliquez pour copier.[/H][SC]lands admin[/SC][/T]'
-      debug: '[T]&8/&3Lands debug &8- &7Montre les statistiques[H]&7Cliquez pour copier.[/H][SC]lands debug[/SC][/T]'
-      reload: '[T]&8/&3Lands reload &8- &7Reload la config et les messages[H]&7Cliquez pour copier.[/H][SC]lands reload[/SC][/T]'
-      about: '[T]&8/&3Lands about &8- &7Montre de l''information à propos de Lands[H]&7Cliquez pour copier.[/H][SC]lands about[/SC][/T]'
+      admin: '[T]&8/&3territoire admin &8<&3sub-command&8> &8- &7Commandes administrateurs[H]&7Cliquez pour copier.[/H][SC]territoire admin[/SC][/T]'
+      debug: '[T]&8/&3territoire debug &8- &7Montre les statistiques[H]&7Cliquez pour copier.[/H][SC]territoire debug[/SC][/T]'
+      reload: '[T]&8/&3territoire reload &8- &7Reload la config et les messages[H]&7Cliquez pour copier.[/H][SC]territoire reload[/SC][/T]'
+      about: '[T]&8/&3territoire about &8- &7Montre de l''information à propos de Lands[H]&7Cliquez pour copier.[/H][SC]territoire about[/SC][/T]'
     mod:
-      chatspy: '[T]&8/&3Lands chatspy &8[&3land&8] - &7Espionner le chat d''un territoire[H]&7Cliquez pour copier.[/H][SC]lands chatspy[/SC][/T]'
+      chatspy: '[T]&8/&3territoire chatspy &8[&3land&8] - &7Espionner le chat d''un territoire[H]&7Cliquez pour copier.[/H][SC]territoire chatspy[/SC][/T]'
 message:
   world-not-exist: '&cUn monde nommé&4 {world} &cm''existe pas. &7Erreur de frappe?'
   world-invalid: '&cCette commande est désactivée dans: {world}'
@@ -340,7 +340,7 @@ command:
       sold: '&cVous ne pouvez pas mettre en location une région vendue. &7La région&6 {area} &7a été achetée par&3 {player}&7.'
       success: '&7Vous avez mis&6 {area} &7en location. Le locataire paiera&c {cost} NewOvers &7à tous les&5 {time}&7.'
       invalid: |
-        &7Your line format is invalid (line: {line})
+        &7Le format est invalide (ligne: {line})
          &81. line:&7 Lands
          &82. line:&7 rent &8[&7région&8]
          &83. line:&7 temps maxTemps (optionnel)
@@ -348,7 +348,7 @@ command:
       info: |
         [NoPrefix]
         &7---------<- &5&lLouer région &7->---------
-        [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]lands view here[/C][/T]
+        [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]territoire view here[/C][/T]
          &7Région:&6 {area}
          &7Coût:&c {cost} NewOvers &7chaque {time}
          &8Temps maximum: {max}
@@ -362,7 +362,7 @@ command:
       info: |
         [NoPrefix]
         &7---------<- &5&lInformation location &7->---------
-        [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]lands view here[/C][/T]
+        [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]territoire view here[/C][/T]
          &7Région:&6 {area}
          &7Locataire: {player}
          &7Temps restant:&5 {left}
@@ -396,20 +396,20 @@ command:
         area: |
           [NoPrefix]
           &7---------<- &5&lAcheter région &7->---------
-          [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]lands view here[/C][/T]
+          [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]territoire view here[/C][/T]
            &7Région:&6 {area}
            &7Coût:&c {cost} NewOvers
           &7---------<- &5&lAcheter région &7->---------
         land: |
           [NoPrefix]
           &7---------<- &5&lAcheter territoire &7->---------
-          [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir le territoire.[/H][C]lands view[/C][/T]
+          [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir le territoire.[/H][C]territoire view[/C][/T]
           &7Coût:&c {cost} NewOvers
           &7---------<- &5&lAcheter territoire &7->---------
     sold: |
       [NoPrefix]
       &7---------<- &5&lRégion vendue &7->---------
-      [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]lands view here[/C][/T]
+      [T]&7Territoire:&a {land} &8[&8CLIC&8][H]&7Cliquez pour voir la région.[/H][C]territoire view here[/C][/T]
        &7Région:&6 {area}
        &7Vendu à&3 {player} &7pour le coût de&c {cost} NewOvers&7.
       &7---------<- &5&lRégion vendue &7->---------
@@ -417,29 +417,29 @@ command:
     no-permission: '&cVous n''avez pas la permission de faire ceci. &8Vous devez avoir la permission {permission}.'
     land-not-exist: '&cLe territoire&2 {land} &cn''existe pas. &7Aucun territoire ne porte ce nom.'
     area-not-exist: '&cLa région&4 {area} &cn''existe pas dans le territoire&4 {land}&c. &7Vous pouvez créer une novelle région dans le menu. &7Faute de frappe?'
-    land-not-member: '&cVous n''êtes pas trust dans le territoire&4 {land}&c. &7Utilisez &8/&3Lands menu &7pour voir les territoires dans lesquels vous êtes membres.'
-    no-edit-land: '&cVous n''avez pas sélectionné le territoire à modifier. &7Use &8/&3Lands edit &8<&3land&8> &7pour le sélectionner.'
+    land-not-member: '&cVous n''êtes pas trust dans le territoire&4 {land}&c. &7Utilisez &8/&3territoire menu &7pour voir les territoires dans lesquels vous êtes membres.'
+    no-edit-land: '&cVous n''avez pas sélectionné le territoire à modifier. &7Use &8/&3territoire edit &8<&3land&8> &7pour le sélectionner.'
     name-exists: '&cLe nom&4 {name} &cest déjà utilisé par un autre territoire ou une nation. &7Choisissez-en un nouveau.'
-    money-cost-bank: '&cVous n''avez pas assez pour payer les coûts. &7Vous avez besoin de&c {cost} NewOvers&7. Pour déposer de l''argent dans la banque du territoire: &8/&3Lands deposit {cost}'
+    money-cost-bank: '&cVous n''avez pas assez pour payer les coûts. &7Vous avez besoin de&c {cost} NewOvers&7. Pour déposer de l''argent dans la banque du territoire: &8/&3territoire deposit {cost}'
     money-cost: '&cVous n''avez pas assez pour payer les coûts. &7Vous avez besoin de&c {cost} NewOvers&7.'
     swear-word: '&cMot grossier détecté. &7N''utilisez pas de mots grossiers. Mot:&c {word}'
     action-cooldown: '&cVous ne pouvez pas faire ceci. &7Attendez&5 {time}&7. &8Bypass: {bypass}'
-    land-no-own: '&cVous ne possédez aucun territoire. &7Utilisez &8/&3Lands create &7pour en créer un.'
+    land-no-own: '&cVous ne possédez aucun territoire. &7Utilisez &8/&3territoire create &7pour en créer un.'
     world-invalid: '&cVous ne pouvez pas faire ceci dans ce monde.'
-    wilderness: '&cIl n''y a aucun terrain claim à votre position. &7Tenez-vous dans votre territoire pour éxécuter cette action. &7Vous pouvez utiliser &8/&3Lands menu &7pour voir vos territoires.'
+    wilderness: '&cIl n''y a aucun terrain claim à votre position. &7Tenez-vous dans votre territoire pour éxécuter cette action. &7Vous pouvez utiliser &8/&3territoire menu &7pour voir vos territoires.'
     player-not-exist: '&cAucun joueur n''est nommé&4 {player}&c. &7Faute de frappe?'
     player-offline: '&cAucun joueur nommé&4 {player} &cn''est connecté. &7Faute de frappe?'
     player-self: '&cVous ne pouvez pas faire ceci sur vous-même. &7T''es drôle toi :)'
     banks-disabled: '&7Les banques ont été désactivées par l''administrateur.'
-    land-not-trusted: '&4 {player} &7ne fait pas partie du territoire&4 {land}&c. Vous devez le trust en utilisant &8/&3Lands trust&7.'
+    land-not-trusted: '&4 {player} &7ne fait pas partie du territoire&4 {land}&c. Vous devez le trust en utilisant &8/&3territoire trust&7.'
     area-not-trusted: '&cVous ne pouvez pas faire ceci ici. &7Vous n''êtes pas trust dans la région&6 {area} &7du territoire&2 {land}&7.'
     invalid-number: '&4 {input} &cn''est pas un nombre. &3 {argument} &7doit être un nombre.'
     number: '&4 {input} &cn''est pas un nombre. &3 {argument} &7doit être un nombre.'
     none: |
       &cVous n''êtes pas membre d''un territoire.
 
-        &7Pour se faire inviter: &8/&3Lands trust
-        [T]&7Créez votre propre territoire: &8/&3Lands create[H]&7Cliquez pour copier.[/H][SC]lands create[/SC][/T]
+        &7Pour se faire inviter: &8/&3territoire trust
+        [T]&7Créez votre propre territoire: &8/&3territoire create[H]&7Cliquez pour copier.[/H][SC]territoire create[/SC][/T]
     name:
       number: '&cVous ne pouvez pas utiliser de chiffres dans le nom. &7N''utilisez que des lettres. Chiffre:&3 {invalid}'
       character: '&cVous ne pouvez pas utiliser de caractères invalides dans le nom. &7N''utilisez que des chiffres ou des lettres. &7Caractère invalide:&3 {invalid}'
@@ -447,16 +447,13 @@ command:
       length: '&cCe nom est trop long. &7Le maximum permis est de&3 {max} &7caractères &8(&7Entrée:{input}&8)&7. &8Ceci inclut les codes couleur.'
       empty: '&cCe nom est invalide. &7Vous devez entrer au moins un caractère outre un code couleur.'
   help:
-    header: '[NoPrefix][T]&7----------&6<<<<&7-[H]&7Click here to navigate to the
-      previous page.[/H][C]{cmd} help {previous}[/C][/T] &2Lands Help &7Page&3 {page}
-      &8/&3 {pages} [T]&7-&6>>>>&7----------[H]&7Click here to go to the next page.[/H][C]{cmd}
-      help {next}[/C][/T]'
+    header: '[NoPrefix][T]&7----------&6<<<<&7-[H]&7Cliquez ici pour naviguer vers la page précédente.[/H][C]{cmd} help {previous}[/C][/T] &2territoire Help &7Page&3 {page} &8/&3 {pages} [T]&7-&6>>>>&7----------[H]&7Cliquez ici pour aller vers la page suivante.[/H][C]{cmd} help {next}[/C][/T]'
     footer: |
       [NoPrefix]
-      &7Click on the arrows below to navigate.
-      [T]&7----------&6<<<<&7-[H]&7Click here to navigate to the previous page.[/H][C]{cmd} help {previous}[/C][/T] &2Lands Help &7Page&3 {page} &8/&3 {pages} [T]&7-&6>>>>&7----------[H]&7Click here to go to the next page.[/H][C]{cmd} help {next}[/C][/T]
+      &7Cliquez sur les flèches ci-dessous pour naviguer.
+      [T]&7----------&6<<<<&7-[H]&7Cliquez ici pour naviguer vers la page précédente.[/H][C]{cmd} help {previous}[/C][/T] &2territoire Help &7Page&3 {page} &8/&3 {pages} [T]&7-&6>>>>&7----------[H]&7Cliquez ici pour aller vers la page suivante.[/H][C]{cmd} help {next}[/C][/T]
     help: '&7Use &8/&a{cmd} help &7for help.'
-    cmd-not-exist: '&cThis command doesn''t exist. &7Command&3 {command} &7is invalid.'
+    cmd-not-exist: '&cCette commande n''existe pas. &7La commande&3 {command} &7est invalide.'
   create:
     land-other: '&cYou''re not allowed to have your own land and be a member of another land. &7You need to leave land&2 {land} &7first. &8An administrator can disable this in the config: invite-owner'
     max-own: '&cYou can''t create any more lands. &7You reached your maximum of&3 {max} &7own lands. &8Permission: lands.ownlands.NUMBER'
