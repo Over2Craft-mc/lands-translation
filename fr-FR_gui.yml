@@ -38,7 +38,7 @@ physical-Item:
     lore:
       - '&7Utilisez cet outil pour'
       - '&7sélectionner des chunks et les claim:'
-      - '&8/&3Lands claim'
+      - '&8/&3territoire claim'
     material: GOLDEN_HOE
 
 skull:
@@ -82,7 +82,7 @@ gui:
           - '&7Fermer le menu.'
           - ' '
           - '&8- &7Vous pouvez le réouvrir'
-          - '  &7avec &8/&3Lands menu main&7.'
+          - '  &7avec &8/&3territoire menu main&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 9
         enabled: true
@@ -174,7 +174,7 @@ gui:
           - '  &8/&3Lands create &8<&3name&8>'
           - ' '
           - '&8- &7Se faire trust par un territoire:'
-          - '  &8/&3Lands trust {player}'
+          - '  &8/&3territoire trust {player}'
         material: OAK_SIGN
         from: 10
         to: 18
@@ -333,7 +333,7 @@ gui:
           - '&7de spawn. Ils doivent'
           - '&7en déterminer un avant:'
           - ' '
-          - '&7Faites &8/&3Lands setspawn'
+          - '&7Faites &8/&3territoire setspawn'
           - '&7pour déterminer le point de spawn.'
     p:
       placeholder_1:
@@ -410,9 +410,9 @@ gui:
           - '&7Vous n''avez assigné aucun'
           - '&7territoire à cette région.'
           - ' '
-          - '&7Utilisez &8/&3Lands selection'
+          - '&7Utilisez &8/&3territoire selection'
           - '&7pour faire la sélection et'
-          - '&8/&3Lands selection assign {area}'
+          - '&8/&3territoire selection assign {area}'
           - '&7pour assigner un territoire à la région.'
         material: ACACIA_FENCE
         from: 10
@@ -2163,7 +2163,7 @@ gui:
           - ' '
           - '&8- &7Les joueurs peuvent'
           - '  &7vous inviter en faisant:'
-          - '  &8/&3Lands trust {player}'
+          - '  &8/&3territoire trust {player}'
         material: OAK_SIGN
         from: 10
         to: 27
@@ -2299,7 +2299,7 @@ gui:
           - '&7Fermer ce menu.'
           - ' '
           - '&8- &7Vous pouvez le réouvrir'
-          - '  &7avec &8/&3Lands info&7.'
+          - '  &7avec &8/&3territoire info&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 19
     f:
@@ -2477,7 +2477,7 @@ gui:
           - '&7Fermer ce menu.'
           - ' '
           - '&8- &7Vous pouvez le réouvrir en'
-          - '  &7faisant &8/&3Lands list&7.'
+          - '  &7faisant &8/&3territoires list&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 46
     f:
@@ -2539,7 +2539,7 @@ gui:
           - '&7qui corresponde à vos critères.'
           - ' '
           - '&8- &7Pour créer un territoire faites:'
-          - '  &8/&3Lands create &8<&3name&8>'
+          - '  &8/&3territoire create &8<&3name&8>'
         material: PAPER
         from: 10
         to: 45
@@ -2560,7 +2560,7 @@ gui:
           - '&7mis en place.'
           - ' '
           - '&8- &7Ils peuvent faire'
-          - '  &8/&3Lands setspawn &7pour'
+          - '  &8/&3territoire setspawn &7pour'
           - '  &7en déterminer un.'
       failure_teleport_cost:
         name: '&4Refusé: &cCoût'
