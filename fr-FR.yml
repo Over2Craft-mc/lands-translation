@@ -10,7 +10,7 @@ general:
   unlimited: '&aIllimité'
   land:
     title:
-      land: '&7%niveau% &7du&3 %propriétaire%&7.'
+      land: '&7Bienvenue !'
       admin: '&7Ce territoire appartient au serveur.'
     default-area: 'Par défaut'
   area:
