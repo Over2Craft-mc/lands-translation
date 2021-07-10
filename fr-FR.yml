@@ -455,103 +455,76 @@ command:
     help: '&7Use &8/&a{cmd} help &7for help.'
     cmd-not-exist: '&cCette commande n''existe pas. &7La commande&3 {command} &7est invalide.'
   create:
-    land-other: '&cYou''re not allowed to have your own land and be a member of another land. &7You need to leave land&2 {land} &7first. &8An administrator can disable this in the config: invite-owner'
-    max-own: '&cYou can''t create any more lands. &7You reached your maximum of&3 {max} &7own lands. &8Permission: lands.ownlands.NUMBER'
-    success: '&7Successfully created land&2 {land} &7for&c ${cost}&7. You can claim
-      chunks by executing &8/&3Lands claim&7. You can also use /Lands selection to
-      claim a selection. Set land {land} &7as your edit land for future actions &8(/&3Lands
-      edit&8)&7.'
-    broadcast: '&7Land&2 {land} &7was created by&3 {player}&7.'
+    land-other: '&cVous n''avez pas le droit d''avoir votre propre terre et d''être membre d''une autre terre en même temps. &7Vous devez quitter le territoire &2 {land} &7en premier. &8Un Administrateur peut la désactiver dans la configuration: invite-owner'
+    max-own: '&cVous ne pouvez pas créer d''autre territoire. &7Vous avez atteint le maxium de territoire autorisé &3 {max}. &8Permission: lands.ownlands.NUMBER'
+    success: '&7Territoire crée avec succéss &2 {land} &7pour&c ${cost}&7. Vous pouvez réclamer des terres en exécutant la commande : &8/&3Lands claim&7. Vous pouvez également utilisé /Lands selection pour activer le mode selection. Définissez le territoire {land} &7comme terre à éditer pour les actions futures &8(/&3Lands edit&8)&7.'
+    broadcast: '&7Land&2 {land} &7a été crée par &3 {player}&7.'
   rename:
-    success: '&7Successfully set the new name&3 {name} &7for the land&2 {land}&7.
-      You paid&c ${cost}&7.'
+    success: '&7Nouveau nom de territoire définis avec succés &3 {name} &7pour le territoire&2 {land}&7. Vous avez payé &c ${cost}&7.'
   edit:
-    success: '&7You entered the edit mode for the land&2 {land}&7. Next actions, like
-      &8/&3Lands claim &7or &8/&3Lands trust&7, will be executed for this land.'
+    success: '&7Vous entrez dans le monde édition pour le territoire &2 {land}&7. Action suivante, comme &8/&3Lands claim &7ou &8/&3Lands trust&7, sera exécuté pour ce territoire.'
   top:
     mode: '&cYour input&4 {input} &cisn''t a valid sort mode. &7Valid sort modes: {modes}'
-    title: '[NoPrefix][T]&7-----------&6<<<<&7-[C]lands top {mode} {previous}[/C][H]&7Click
-      here to view the previous page.[/H][/T] &5Top Lands [T]&7-&6>>>>&7-----------[C]lands
-      top {mode} {next}[/C][H]&7Click here to view the next page.[/H][/T]'
+    title: '[NoPrefix][T]&7-----------&6<<<<&7-[C]lands top {mode} {previous}[/C][H]&7Click here to view the previous page.[/H][/T] &5Top Lands [T]&7-&6>>>>&7-----------[C]lands top {mode} {next}[/C][H]&7Click here to view the next page.[/H][/T]'
     footer: |
       [NoPrefix]
-      &7Click on the arrows below to navigate.
-      &7Sort by [T]&7Balance &8[CLICK],[H]&7Click to sort by land bank balance.[/H][C]lands top balance[/C][/T] [T]&7Chunks &8[CLICK],[H]&7Click to sort by land chunks amount (size).[/H][C]lands top chunks[/C][/T] [T]&7Members &8[CLICK][H]&7Click to sort by land members amount.[/H][C]lands top members[/C][/T]
+      &7Cliquez sur les flèches ci-dessous pour naviguer.
+      &7Trier par [T]&7Balance &8[CLICK],[H]&7Cliquez pour trier par solde de banque de terre.[/H][C]lands top balance[/C][/T] [T]&7Chunks &8[CLICK],[H]&7Cliquez pour trier par quantité de terre (taille).[/H][C]lands top chunks[/C][/T] [T]&7Members &8[CLICK][H]&7Cliquez pour trier par montant de membre de terre.[/H][C]lands top members[/C][/T]
       &7Total lands: {total} &8| &7Last updated: {time} &7ago.
-      [T]&7-----------&6<<<<&7-[C]lands top {mode} {previous}[/C][H]&7Click here to view the previous page.[/H][/T] &5Top Lands [T]&7-&6>>>>&7-----------[C]lands top {mode} {next}[/C][H]&7Click here to view the next page.[/H][/T]
+      [T]&7-----------&6<<<<&7-[C]lands top {mode} {previous}[/C][H]&7Cliquez ici pour voir la page précédente.[/H][/T] &5Top Lands [T]&7-&6>>>>&7-----------[C]lands top {mode} {next}[/C][H]&7Cliquez ici pour la page suivante.[/H][/T]
   selection:
-    not-complete: '&cYour selection is not complete. &7Please make sure that both
-      positions are set &8(&bLEFT CLICK &7and &9RIGHT CLICK&8)&7. You can toggle the
-      selection mode by executing &8/&3Lands selection&7.'
-    max: '&cYour selection has too many chunks in it. &7Size:&3 {current} &7Your maximum
-      size is&3 {max} chunks. &8Permission: lands.selection.NUMBER'
-    too-far: '&cThe block you''re looking at is too far away. &7Please move closer to it.'
-    enabled: '&7You enabled selection mode. Use &bLEFT CLICK &7on a block to set the
-      first position and &9RIGHT CLICK &7to set the second position.'
-    disabled: '#t#&5Selection[newline]&cMode disabled'
-    world: '&cBoth positions must be in the same world. &7Please set position one
-      and position two in the same world.'
+    not-complete: '&cVotre selection est incompléte. &7Assurez-vous que les deux positions sont définies &8(&bClic gauche &7et &9Clic droit&8)&7. Vous pouvez basculer le mode de sélection en exécutant &8/&3Lands selection&7.'
+    max: '&cVotre sélection contient trop de morceau. &7Size:&3 {current} &7Votre taille maximal est &3 {max} chunks. &8Permission: lands.selection.NUMBER'
+    too-far: '&cLe bloc que vous regardez est trop loin. &7Veuillez vous en raprocher.'
+    enabled: '&7Vous avez activé le mode sélection. Utilisé &bClique gauche &7sur un bloc pour régler la première position et &9Clique droit &7pour définir la seconde position.'
+    disabled: '#t#&5Selection[newline]&cMode désactivé'
+    world: '&cLes deux positions doivent être dans le même monde. &7Veuillez définir la position 1 et la position 2 dans le même monde.'
     complete: |
-      &7Your selection is complete. Following actions can be executed:
+      &7Votre sélection est compléte. Regarder les actions que vous pouvez faire:
         &8┏
-        &8┃ &7Claim: [T]&8/&3Lands claim &8[&8CLICK&8][H]&7Click here to claim this selection.[/H][C]lands claim[/C][/T]
-        &8┃ &7Unclaim: [T]&8/&3Lands unclaim &8[&8CLICK&8][H]&7Click here to unclaim this selection.[/H][C]lands unclaim[/C][/T]
-        &8┃ &7Assign to sub area: [T]&8/&3Lands assign[H]&7Assign this selection to a sub area.[/H][SC]lands assign <area>[/SC][/T]
+        &8┃ &7Claim: [T]&8/&3Lands claim &8[&8CLICK&8][H]&7Cliquez ici pour réclamer cette sélection.[/H][C]lands claim[/C][/T]
+        &8┃ &7Unclaim: [T]&8/&3Lands unclaim &8[&8CLICK&8][H]&7Cliquez ici pour supprimer cette sélection.[/H][C]lands unclaim[/C][/T]
+        &8┃ &7Assign to sub area: [T]&8/&3Lands assign[H]&7Attribuez cette sélection à une sous-zone.[/H][SC]lands assign <area>[/SC][/T]
         &8┗
     pos:
-      warn: '&cWarning: &7This chunk belongs to another management plugin. Name:&3
-        {plugin}'
-      cancelled: '&cYou can''t set a selection here. &7This chunk belongs to another management plugin. Name:&3 {plugin}'
+      warn: '&cWarning: &7Ce morceau de territoire appartien à un autre plugin de gestion. Name:&3 {plugin}'
+      cancelled: '&cVous ne pouvez pas définir une sélection ici. &7Ce morceau de territoire appartien à un autre plugin de gestion. Name:&3 {plugin}'
       one: '#t#&5&lSelection[newline]&b&lPos 1 &8-> &7Set'
       two: '#t#&5&lSelection[newline]&b&lPos 2 &8-> &7Set'
     area:
-      conflicts: '&cFound&4 {conflicts} &cconflict(s) with chunks already assigned
-        to area(s). &7Use &8/&3Lands selection assign {area} confirm &7to confirm
-        the override. Conflicts belong to these areas: {areas}'
+      conflicts: '&cTrouvé&4 {conflicts} &confli(s) avec des morceaux de territoire déjà assignés pour cette zone(s). &7Use &8/&3Lands selection attribuer {area} confirm &7pour confirmer the override. Conflicts belong to these areas: {areas}'
     expand:
       enabled: '&7Successfully expanded your selection from bottom to the top (min and max claim height).'
       disabled: '&7Your current selection isn''t any longer expanded to all y levels.'
   claim:
-    already: '&cYou can''t claim this chunk. &7It already belongs to land&2 {land}&7.'
-    initial-world: '&cFor land&4 {land} &cyou can only claim in its initial land creation
-      world&4 {world}&c. &7You may want to create another land for the world you''re currently in ({current}): &8/&3Lands create &8<&3name&8>'
-    auto-create: '&7Trying to automatically create a land for you, because you don''t have one. You can change the name of it by executing &8/&3Lands rename&7.'
-    auto-create-fail: '&cFailed to auto create a land for you. &7Please read the messages
-      above.'
-    near-other: '&cThis is too near to land&4 {land}&c. &7You need to move further
-      away from this land. Minimum chunk distance is&3 {distance}&7. &8An administrator
-      can change that in the config.'
-    far-land: '&cYou can''t claim this chunk(s). &7Your claims need to be connected to your land&2 {land}&7.'
-    success: '&7Successfully claimed this chunk &8(&7Land:&2 {land} &7X: {x} Z: {z}&8)
-      &7for&c ${cost}&7. Next claim will cost&c ${next}&7.'
-    already-claimed: '&cIn your selection is a chunk that is already claimed and does
-      not belong to your land &8(&7X: {x} Z: {z}&8)&c. &7It belongs to land&2 {land}&7.'
-    max-chunk: '&cYou can''t claim&4 {chunks} &cmore chunks for this land. &7The maximum for land&2 {land} &7is&3 {max} &7chunks. &8Permission: lands.chunks.NUMBER'
-    selection: '&7You successfully claimed&3 {chunks} &7chunks for your land&2 {land}&7.
-      You paid&c ${cost}&7.'
+    already: '&cVous ne pouvez pas revendiquer ce morceau. &7Il appartien déjà au territoire &2 {land}&7.'
+    initial-world: '&cPour le territoire &4 {land} &cvous ne pouvez pas revendiquer qye dans son monde initial de création foncière&4 {world}&c. &7Vous pouvez vouloir créer un autre territoire pour le monde dans lequel vous êtes actuellement ({current}): &8/&3Lands create &8<&3name&8>'
+    auto-create: '&7Essayez de créer automatiquement un territoire pour vous, parce que, vous n''en avez pas. Vous ne pouvez pas en changer le nom en exécutant &8/&3Lands rename&7.'
+    auto-create-fail: '&cImpossible de créerautomatiquement un territoire pour vous. &7Veuillez lire les messages ci-dessus'
+    near-other: '&cSon est trop près du territoire &4 {land}&c. &7Tu dois t''éloigner de ce territoir. Avec une distence minimum de &3 {distance}&7. &8Un Administrateur peut le changer dans la configuration.'
+    far-land: '&cVous ne pouvez pas réclamer cette terre. &7Vos revendications doivent être liées à vos territoire &2 {land}&7.'
+    success: '&7A revendiqué avec succés ce territoire &8(&7Land:&2 {land} &7X: {x} Z: {z}&8) &7pour&c ${cost}&7. Coût de la prochaine réclamation &c ${next}&7.'
+    already-claimed: '&cDans votre sélection est un morceau qui est déjà réclamé et n''appartien pas à votre territoire &8(&7X: {x} Z: {z}&8)&c. &7Il appartien au territoire &2 {land}&7.'
+    max-chunk: '&cVous ne pouvez pas réclamer &4 {chunks} &cplus de terre pour ce territoire. &7Le maximum est &2 {land} &7et&3 {max} &7chunks. &8Permission: lands.chunks.NUMBER'
+    selection: '&7Vous avez réclamé avec succès &3 {chunks} &7chunks pour votre territoire &2 {land}&7. Vous avez payé &c ${cost}&7.'
   assign:
-    selection: '&cYou need to create a selection first. &7Use &8/&3Lands selection
-      &7to create one. After that try again.'
-    default: '&cYou can''t assign the selection to a default area. &7Areas can be deleted in the areas menu of the land.'
-    size: '&cYour selection is too small. &7The minimum size is&3 {min} &7blocks and
-      yours is&3 {current}&7.'
-    success: '&7You successfully resized the area&6 {area} &7of land&2 {land}&7. Changes
-      are visualized.'
+    selection: '&cVous devez d''abord créer une sélection. &7Utilisez &8/&3Lands selection &7de créer un. Puis recommencé.'
+    default: '&cVous ne pouvez pas affecter la sélection à une zone par défaut. &7Les zones peuvent être supprimées dans le menu des zones du territoire.'
+    size: '&cVotre sélection est trop petite. &7La taille minimum est de &3 {min} &7blocs et le vôtre est de &3 {current}&7.'
+    success: '&7Vous avez redimensionné la zone avec succès &6 {area} &7pour le territoire &2 {land}&7. Les changements sont visualisés.'
     conflict:
-      land: '&cYour selection conflicts with land&4 {land}&c. &7Please adjust your
-        selection.'
-      area: '&cYour selection conflicts with area&4 {area}&c. &7Please adjust your
-        selection.'
+      land: '&cVotre sélection entre en conflit avec le territoire &4 {land}&c. &7Veuillez ajuster votre sélection.'
+      area: '&cVotre sélection entre en conflit avec la zone &4 {area}&c. &7Veuillez ajuster votre sélection.'
   leave:
     owner: |
-      &cYou can't leave this land. &7As the owner of a land you can delete the land or just transfer the ownership.
-        &7Delete: [T]&8/&3Lands delete {land} &8[&8CLICK&8][C]lands delete {land}[/C][H]&7Click to execute this command.[/H][/T]
-        &7Transfer ownership: [T]&8/&3Lands setowner &8[&8CLICK&8][SC]lands setowner [/SC][H]&7Click to copy this command.[/H][/T]
+      &cTu ne peux pas quitter ce territoire. &7En tant que propriétaire d'un territoire, vous pouvez pas supprimer le territoire ou simplement en transférer la propriété.
+        &7Supprimer: [T]&8/&3Lands delete {land} &8[&8CLICK&8][C]lands delete {land}[/C][H]&7Cliquez ici pour exécuter la commande.[/H][/T]
+        &7Transférer la propriété: [T]&8/&3Lands setowner &8[&8CLICK&8][SC]lands setowner [/SC][H]&7Cliquez ici pour copier la commande.[/H][/T]
     land:
-      untrusted: '&7You aren''t trusted in any areas of land&2 {land}&7.'
-      success: '&7Successfully left the whole land&2 {land}&7.'
+      untrusted: '&7On ne vous fait plus confiance dans le territoire &2 {land}&7.'
+      success: '&7Ils ont réuis à quitter tout le territoire&2 {land}&7.'
     area:
-      untrusted: '&7You aren''t trusted in area&6 {area} &7of the land&2 {land}&7.'
+      untrusted: '&7On ne vous fait plus confiance dans cette zone&6 {area} &7du territoire &2 {land}&7.'
       success: '&7Successfully left the area&6 {area} &7of the land&2 {land}&7.'
   unclaim:
     rental: '&cYou can''t unclaim this chunk&7, because it contains the rented/sold area&6 {area}&7. Tenant:&3 {player}'
